@@ -17,24 +17,42 @@ A console-based ATM system with:
 * Withdraw Money
 * Exit
 
+### 🚦 Traffic Signal Simulator
+
+Simulates traffic signal behavior based on the selected light:
+
+* 🔴 Red → Stop
+* 🟡 Yellow → Get Ready
+* 🟢 Green → Go
+
 ## 🛠️ Tech Stack
 
 * Java
-* OOP & Core Java Concepts
+* Core Java & OOP Concepts
 * Scanner for User Input
+* Switch-Case
 
 ## ▶️ Run
+
+### Dice Simulator
+
+```bash
+javac DiceSimulator.java
+java DiceSimulator
+```
+
+### ATM Simulator
 
 ```bash
 javac ATM.java
 java ATM
 ```
 
-For Dice Simulator:
+### Traffic Signal Simulator
 
 ```bash
-javac DiceSimulator.java
-java DiceSimulator
+javac TrafficSignalSimulator.java
+java TrafficSignalSimulator
 ```
 
 ## 🎯 Mission
