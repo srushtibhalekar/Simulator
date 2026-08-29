@@ -17,13 +17,13 @@ A console-based ATM system with:
 * Withdraw Money
 * Exit
 
-### 🚦 Traffic Signal Simulator
+### ⏱️ Countdown Timer
 
-Simulates traffic signal behavior based on the selected light:
+A console-based timer that counts down from the number of seconds entered by the user.
 
-* 🔴 Red → Stop
-* 🟡 Yellow → Get Ready
-* 🟢 Green → Go
+* Enter countdown duration
+* Displays remaining time
+* Shows **TIME'S UP** when the countdown finishes
 
 ## 🛠️ Tech Stack
 
@@ -31,6 +31,8 @@ Simulates traffic signal behavior based on the selected light:
 * Core Java & OOP Concepts
 * Scanner for User Input
 * Switch-Case
+* Loops
+* Thread.sleep()
 
 ## ▶️ Run
 
@@ -48,11 +50,11 @@ javac ATM.java
 java ATM
 ```
 
-### Traffic Signal Simulator
+### Countdown Timer
 
 ```bash
-javac TrafficSignalSimulator.java
-java TrafficSignalSimulator
+javac CountdownTimer.java
+java CountdownTimer
 ```
 
 ## 🎯 Mission
