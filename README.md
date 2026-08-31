@@ -25,11 +25,23 @@ A console-based timer that counts down from the number of seconds entered by the
 * Displays remaining time
 * Shows **TIME'S UP** when the countdown finishes
 
+### 🔐 Password Generator Simulator
+
+Generates a random password based on the length entered by the user.
+
+* Custom password length
+* Uppercase letters
+* Lowercase letters
+* Numbers
+* Special characters
+
 ## 🛠️ Tech Stack
 
 * Java
-* Core Java & OOP Concepts
+* Core Java
 * Scanner for User Input
+* Random
+* String & StringBuilder
 * Switch-Case
 * Loops
 * Thread.sleep()
@@ -55,6 +67,13 @@ java ATM
 ```bash
 javac CountdownTimer.java
 java CountdownTimer
+```
+
+### Password Generator
+
+```bash
+javac PasswordGenerator.java
+java PasswordGenerator
 ```
 
 ## 🎯 Mission
