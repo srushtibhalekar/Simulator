@@ -69,37 +69,45 @@ A memory-based game where the player must remember a number displayed for a shor
 
 ### Dice Simulator
 
+```bash
 javac DiceSimulator.java
 java DiceSimulator
+```
 
 ### ATM Simulator
 
+```bash
 javac ATM.java
 java ATM
-
+```
 
 ### Countdown Timer
 
+```bash
 javac CountdownTimer.java
 java CountdownTimer
-
+```
 
 ### Password Generator
 
+```bash
 javac PasswordGenerator.java
 java PasswordGenerator
-
+```
 
 ### Rock Paper Scissors
 
+```bash
 javac RockPaperScissors.java
 java RockPaperScissors
+```
 
 ### Memory Number Game
 
-
+```bash
 javac MemoryNumberGame.java
 java MemoryNumberGame
+```
 
 ## 🎯 Mission
 
