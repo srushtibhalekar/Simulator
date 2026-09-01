@@ -1,6 +1,6 @@
-# 🎮 Java Simulators
+# 🎮 Java Simulators & Games
 
-A collection of simple **Java console-based simulators** built to practice core programming concepts, logic, and user interaction.
+A collection of simple **Java console-based simulators and games** built to practice core programming concepts, logic, and user interaction.
 
 ## 🚀 Projects
 
@@ -25,56 +25,81 @@ A console-based timer that counts down from the number of seconds entered by the
 * Displays remaining time
 * Shows **TIME'S UP** when the countdown finishes
 
-### 🔐 Password Generator Simulator
+### 🔐 Password Generator
 
 Generates a random password based on the length entered by the user.
 
-* Custom password length
 * Uppercase letters
 * Lowercase letters
 * Numbers
 * Special characters
 
+### 🎮 Rock Paper Scissors
+
+A console-based game where the player competes against the computer.
+
+* Rock
+* Paper
+* Scissors
+* Random computer moves
+* Score tracking
+
+### 🧠 Memory Number Game
+
+A memory-based game where the player must remember a number displayed for a short time.
+
+* 5 rounds
+* Random numbers
+* Score tracking
+* Memory challenge
+
 ## 🛠️ Tech Stack
 
 * Java
 * Core Java
-* Scanner for User Input
+* Scanner
 * Random
 * String & StringBuilder
 * Switch-Case
 * Loops
+* Methods
 * Thread.sleep()
 
 ## ▶️ Run
 
 ### Dice Simulator
 
-```bash
 javac DiceSimulator.java
 java DiceSimulator
-```
 
 ### ATM Simulator
 
-```bash
 javac ATM.java
 java ATM
-```
+
 
 ### Countdown Timer
 
-```bash
 javac CountdownTimer.java
 java CountdownTimer
-```
+
 
 ### Password Generator
 
-```bash
 javac PasswordGenerator.java
 java PasswordGenerator
-```
+
+
+### Rock Paper Scissors
+
+javac RockPaperScissors.java
+java RockPaperScissors
+
+### Memory Number Game
+
+
+javac MemoryNumberGame.java
+java MemoryNumberGame
 
 ## 🎯 Mission
 
