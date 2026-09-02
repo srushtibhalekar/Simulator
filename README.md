@@ -53,6 +53,16 @@ A memory-based game where the player must remember a number displayed for a shor
 * Score tracking
 * Memory challenge
 
+### 🚗 Parking Lot Simulator
+
+A console-based parking management system that allows users to manage parking slots.
+
+* Park Vehicle
+* Remove Vehicle
+* View Parking Slots
+* Slot availability checking
+* Vehicle number management
+
 ## 🛠️ Tech Stack
 
 * Java
@@ -60,6 +70,7 @@ A memory-based game where the player must remember a number displayed for a shor
 * Scanner
 * Random
 * String & StringBuilder
+* Arrays
 * Switch-Case
 * Loops
 * Methods
@@ -107,6 +118,13 @@ java RockPaperScissors
 ```bash
 javac MemoryNumberGame.java
 java MemoryNumberGame
+```
+
+### Parking Lot Simulator
+
+```bash
+javac ParkingLotSimulator.java
+java ParkingLotSimulator
 ```
 
 ## 🎯 Mission
