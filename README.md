@@ -63,6 +63,19 @@ A console-based parking management system that allows users to manage parking sl
 * Slot availability checking
 * Vehicle number management
 
+### 🚧 Toll Booth Simulator
+
+A console-based toll collection system for different types of vehicles.
+
+* Car — ₹50
+* Bike — ₹20
+* Bus — ₹100
+* Truck — ₹150
+* Vehicle count tracking
+* Total toll collection
+* View collection
+* Exit system
+
 ## 🛠️ Tech Stack
 
 * Java
@@ -125,6 +138,13 @@ java MemoryNumberGame
 ```bash
 javac ParkingLotSimulator.java
 java ParkingLotSimulator
+```
+
+### Toll Booth Simulator
+
+```bash
+javac TollBoothSimulator.java
+java TollBoothSimulator
 ```
 
 ## 🎯 Mission
