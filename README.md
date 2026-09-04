@@ -1,6 +1,6 @@
 # 🎮 Java Simulators & Games
 
-A collection of simple **Java console-based simulators and games** built to practice core programming concepts, logic, and user interaction.
+A collection of simple **Java console-based simulators and games** built to practice Core Java concepts, programming logic, Collections, and user interaction.
 
 ## 🚀 Projects
 
@@ -55,7 +55,7 @@ A memory-based game where the player must remember a number displayed for a shor
 
 ### 🚗 Parking Lot Simulator
 
-A console-based parking management system that allows users to manage parking slots.
+A console-based parking management system.
 
 * Park Vehicle
 * Remove Vehicle
@@ -74,7 +74,16 @@ A console-based toll collection system for different types of vehicles.
 * Vehicle count tracking
 * Total toll collection
 * View collection
-* Exit system
+
+### 🏦 Bank Queue Simulator
+
+A console-based bank queue management system using Java Collections.
+
+* Add Customer
+* Serve Customer
+* View Waiting Queue
+* Customer Count
+* FIFO queue management
 
 ## 🛠️ Tech Stack
 
@@ -84,10 +93,30 @@ A console-based toll collection system for different types of vehicles.
 * Random
 * String & StringBuilder
 * Arrays
+* Collections
+* Queue
+* LinkedList
 * Switch-Case
 * Loops
 * Methods
 * Thread.sleep()
+
+## 📚 Concepts Practiced
+
+* Variables & Data Types
+* Operators
+* Conditional Statements
+* Switch-Case
+* Loops
+* Methods
+* Arrays
+* String Handling
+* Random Number Generation
+* Exception Handling
+* Java Collections
+* Queue / FIFO
+* Menu-Driven Programming
+* Basic Problem Solving
 
 ## ▶️ Run
 
@@ -147,8 +176,19 @@ javac TollBoothSimulator.java
 java TollBoothSimulator
 ```
 
+### Bank Queue Simulator
+
+```bash
+javac BankQueueSimulator.java
+java BankQueueSimulator
+```
+
 ## 🎯 Mission
 
 **Build small.
 Think logically.
 Code consistently.**
+
+---
+
+⭐ **9 Java projects completed and counting!**
