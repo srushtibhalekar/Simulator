@@ -1,4 +1,4 @@
-# 🎮 Java Simulators & Games
+# 🎮 Java Simulators 
 
 A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, programming logic, and user interaction**.
 
