@@ -1,61 +1,101 @@
 # 🎮 Java Simulators & Games
 
-A collection of simple **Java console-based simulators and games** built to practice Core Java concepts, programming logic, Collections, and user interaction.
+A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, programming logic, and user interaction**.
+
+This repository contains small, practical projects designed to strengthen Java fundamentals through hands-on coding.
+
+---
 
 ## 🚀 Projects
 
-### 🎲 Dice Simulator
+### 🎲 1. Dice Simulator
 
 Simulates rolling two dice and displays the results.
 
-### 🏦 ATM Simulator
+**Features:**
 
-A console-based ATM system with:
+* Random dice values
+* Two-dice simulation
+* Result display
+
+---
+
+### 🏦 2. ATM Simulator
+
+A console-based ATM system that simulates basic banking operations.
+
+**Features:**
 
 * Check Balance
 * Deposit Money
 * Withdraw Money
 * Exit
+* Balance validation
 
-### ⏱️ Countdown Timer
+---
+
+### ⏱️ 3. Countdown Timer
 
 A console-based timer that counts down from the number of seconds entered by the user.
 
+**Features:**
+
 * Enter countdown duration
 * Displays remaining time
-* Shows **TIME'S UP** when the countdown finishes
+* Real-time countdown
+* Shows **TIME'S UP** when finished
+* Uses `Thread.sleep()`
 
-### 🔐 Password Generator
+---
+
+### 🔐 4. Password Generator
 
 Generates a random password based on the length entered by the user.
+
+**Features:**
 
 * Uppercase letters
 * Lowercase letters
 * Numbers
 * Special characters
+* Random password generation
 
-### 🎮 Rock Paper Scissors
+---
+
+### 🎮 5. Rock Paper Scissors
 
 A console-based game where the player competes against the computer.
+
+**Features:**
 
 * Rock
 * Paper
 * Scissors
 * Random computer moves
 * Score tracking
+* Multiple rounds
 
-### 🧠 Memory Number Game
+---
 
-A memory-based game where the player must remember a number displayed for a short time.
+### 🧠 6. Memory Number Game
+
+A memory-based game where the player must remember a randomly generated number.
+
+**Features:**
 
 * 5 rounds
 * Random numbers
-* Score tracking
 * Memory challenge
+* Score tracking
+* Increasing difficulty
 
-### 🚗 Parking Lot Simulator
+---
 
-A console-based parking management system.
+### 🚗 7. Parking Lot Simulator
+
+A console-based parking management system for managing vehicle parking slots.
+
+**Features:**
 
 * Park Vehicle
 * Remove Vehicle
@@ -63,45 +103,97 @@ A console-based parking management system.
 * Slot availability checking
 * Vehicle number management
 
-### 🚧 Toll Booth Simulator
+---
+
+### 🚧 8. Toll Booth Simulator
 
 A console-based toll collection system for different types of vehicles.
 
-* Car — ₹50
-* Bike — ₹20
-* Bus — ₹100
-* Truck — ₹150
+**Toll Rates:**
+
+| Vehicle  | Toll |
+| -------- | ---: |
+| 🚗 Car   |  ₹50 |
+| 🏍️ Bike |  ₹20 |
+| 🚌 Bus   | ₹100 |
+| 🚛 Truck | ₹150 |
+
+**Features:**
+
+* Vehicle type selection
+* Automatic toll calculation
 * Vehicle count tracking
 * Total toll collection
-* View collection
+* View collection summary
 
-### 🏦 Bank Queue Simulator
+---
 
-A console-based bank queue management system using Java Collections.
+### 🏦 9. Bank Queue Simulator
+
+A console-based bank queue management system using **Java Collections**.
+
+**Features:**
 
 * Add Customer
 * Serve Customer
 * View Waiting Queue
 * Customer Count
 * FIFO queue management
+* Uses `Queue` and `LinkedList`
+
+---
+
+### 📱 10. Contact Manager Simulator
+
+A console-based contact management application built using **Core Java and Collections**.
+
+**Features:**
+
+* Add Contact
+* View Contacts
+* Search Contact
+* Update Contact
+* Delete Contact
+* Phone number and email management
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* `ArrayList`
+* Methods
+* Scanner
+* CRUD operations
+
+---
 
 ## 🛠️ Tech Stack
 
-* Java
+* ☕ Java
 * Core Java
+* OOP
 * Scanner
 * Random
-* String & StringBuilder
+* String
+* StringBuilder
 * Arrays
-* Collections
+* Collections Framework
+* ArrayList
 * Queue
 * LinkedList
 * Switch-Case
 * Loops
 * Methods
-* Thread.sleep()
+* Exception Handling
+* `Thread.sleep()`
 
-## 📚 Concepts Practiced
+---
+
+## 📚 Core Java Concepts Practiced
+
+This repository focuses on building a strong foundation in Java.
 
 * Variables & Data Types
 * Operators
@@ -109,86 +201,158 @@ A console-based bank queue management system using Java Collections.
 * Switch-Case
 * Loops
 * Methods
+* Classes & Objects
+* Constructors
+* Encapsulation
 * Arrays
 * String Handling
 * Random Number Generation
 * Exception Handling
 * Java Collections
-* Queue / FIFO
+* ArrayList
+* Queue
+* LinkedList
+* FIFO
+* CRUD Operations
 * Menu-Driven Programming
+* User Input Handling
 * Basic Problem Solving
+* Multithreading Basics
 
-## ▶️ Run
+---
 
-### Dice Simulator
+## ▶️ How to Run
+
+Make sure Java/JDK is installed and configured.
+
+### 🎲 Dice Simulator
 
 ```bash
 javac DiceSimulator.java
 java DiceSimulator
 ```
 
-### ATM Simulator
+### 🏦 ATM Simulator
 
 ```bash
 javac ATM.java
 java ATM
 ```
 
-### Countdown Timer
+### ⏱️ Countdown Timer
 
 ```bash
 javac CountdownTimer.java
 java CountdownTimer
 ```
 
-### Password Generator
+### 🔐 Password Generator
 
 ```bash
 javac PasswordGenerator.java
 java PasswordGenerator
 ```
 
-### Rock Paper Scissors
+### 🎮 Rock Paper Scissors
 
 ```bash
 javac RockPaperScissors.java
 java RockPaperScissors
 ```
 
-### Memory Number Game
+### 🧠 Memory Number Game
 
 ```bash
 javac MemoryNumberGame.java
 java MemoryNumberGame
 ```
 
-### Parking Lot Simulator
+### 🚗 Parking Lot Simulator
 
 ```bash
 javac ParkingLotSimulator.java
 java ParkingLotSimulator
 ```
 
-### Toll Booth Simulator
+### 🚧 Toll Booth Simulator
 
 ```bash
 javac TollBoothSimulator.java
 java TollBoothSimulator
 ```
 
-### Bank Queue Simulator
+### 🏦 Bank Queue Simulator
 
 ```bash
 javac BankQueueSimulator.java
 java BankQueueSimulator
 ```
 
-## 🎯 Mission
+### 📱 Contact Manager Simulator
 
-**Build small.
-Think logically.
-Code consistently.**
+```bash
+javac Contact.java ContactManagerSimulator.java
+java ContactManagerSimulator
+```
+
+> **Important:** If `ContactManagerSimulator` is declared as `public class ContactManagerSimulator`, the file must be named `ContactManagerSimulator.java`.
 
 ---
 
-⭐ **9 Java projects completed and counting!**
+## 📂 Repository Structure
+
+```text
+Java-Simulators-Games/
+│
+├── DiceSimulator.java
+├── ATM.java
+├── CountdownTimer.java
+├── PasswordGenerator.java
+├── RockPaperScissors.java
+├── MemoryNumberGame.java
+├── ParkingLotSimulator.java
+├── TollBoothSimulator.java
+├── BankQueueSimulator.java
+│
+├── Contact.java
+├── ContactManagerSimulator.java
+│
+└── README.md
+```
+
+---
+
+## 🎯 Learning Mission
+
+> **Build small.
+> Think logically.
+> Practice Core Java.
+> Code consistently.
+> Improve every day.**
+
+---
+
+## 📈 Progress
+
+| #  | Project                      | Main Concept       |
+| -- | ---------------------------- | ------------------ |
+| 1  | 🎲 Dice Simulator            | Random             |
+| 2  | 🏦 ATM Simulator             | Conditions         |
+| 3  | ⏱️ Countdown Timer           | Threads            |
+| 4  | 🔐 Password Generator        | Strings & Random   |
+| 5  | 🎮 Rock Paper Scissors       | Game Logic         |
+| 6  | 🧠 Memory Number Game        | Arrays & Random    |
+| 7  | 🚗 Parking Lot Simulator     | Arrays & Logic     |
+| 8  | 🚧 Toll Booth Simulator      | OOP & Logic        |
+| 9  | 🏦 Bank Queue Simulator      | Collections & FIFO |
+| 10 | 📱 Contact Manager Simulator | OOP & ArrayList    |
+
+---
+
+## 🎯 Mission
+
+**10 projects completed.
+Core Java getting stronger.
+Next project loading... 🚀**
+
+⭐ **10 Java projects completed and counting!**
