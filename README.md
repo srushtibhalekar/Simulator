@@ -1,4 +1,4 @@
-# 🎮 Java Simulators 
+# 🎮 Java Simulators
 
 A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, programming logic, and user interaction**.
 
@@ -169,6 +169,34 @@ A console-based contact management application built using **Core Java and Colle
 
 ---
 
+### 💰 11. Expense Tracker Simulator
+
+A console-based expense management system built using **OOP and ArrayList**.
+
+**Features:**
+
+* Add Expense
+* View Expenses
+* Calculate Total Spending
+* Find Highest Expense
+* Delete Expense
+* Category-wise expense information
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Constructors
+* `ArrayList`
+* Loops
+* Methods
+* CRUD operations
+* Searching
+* Calculations
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -214,6 +242,7 @@ This repository focuses on building a strong foundation in Java.
 * LinkedList
 * FIFO
 * CRUD Operations
+* Searching & Filtering
 * Menu-Driven Programming
 * User Input Handling
 * Basic Problem Solving
@@ -297,12 +326,19 @@ java ContactManagerSimulator
 
 > **Important:** If `ContactManagerSimulator` is declared as `public class ContactManagerSimulator`, the file must be named `ContactManagerSimulator.java`.
 
+### 💰 Expense Tracker Simulator
+
+```bash
+javac ExpenseTrackerSimulator.java
+java ExpenseTrackerSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
 
 ```text
-Java-Simulators-Games/
+Java-Simulators/
 │
 ├── DiceSimulator.java
 ├── ATM.java
@@ -317,8 +353,28 @@ Java-Simulators-Games/
 ├── Contact.java
 ├── ContactManagerSimulator.java
 │
+├── ExpenseTrackerSimulator.java
+│
 └── README.md
 ```
+
+---
+
+## 📈 Progress
+
+|  # | Project                      | Main Concept       |
+| -: | ---------------------------- | ------------------ |
+|  1 | 🎲 Dice Simulator            | Random             |
+|  2 | 🏦 ATM Simulator             | Conditions         |
+|  3 | ⏱️ Countdown Timer           | Threads            |
+|  4 | 🔐 Password Generator        | Strings & Random   |
+|  5 | 🎮 Rock Paper Scissors       | Game Logic         |
+|  6 | 🧠 Memory Number Game        | Arrays & Random    |
+|  7 | 🚗 Parking Lot Simulator     | Arrays & Logic     |
+|  8 | 🚧 Toll Booth Simulator      | OOP & Logic        |
+|  9 | 🏦 Bank Queue Simulator      | Collections & FIFO |
+| 10 | 📱 Contact Manager Simulator | OOP & ArrayList    |
+| 11 | 💰 Expense Tracker Simulator | OOP & ArrayList    |
 
 ---
 
@@ -332,27 +388,12 @@ Java-Simulators-Games/
 
 ---
 
-## 📈 Progress
+## 🚀 Current Status
 
-| #  | Project                      | Main Concept       |
-| -- | ---------------------------- | ------------------ |
-| 1  | 🎲 Dice Simulator            | Random             |
-| 2  | 🏦 ATM Simulator             | Conditions         |
-| 3  | ⏱️ Countdown Timer           | Threads            |
-| 4  | 🔐 Password Generator        | Strings & Random   |
-| 5  | 🎮 Rock Paper Scissors       | Game Logic         |
-| 6  | 🧠 Memory Number Game        | Arrays & Random    |
-| 7  | 🚗 Parking Lot Simulator     | Arrays & Logic     |
-| 8  | 🚧 Toll Booth Simulator      | OOP & Logic        |
-| 9  | 🏦 Bank Queue Simulator      | Collections & FIFO |
-| 10 | 📱 Contact Manager Simulator | OOP & ArrayList    |
+**11 projects completed.**
 
----
+**Core Java → OOP → Collections → Real-world logic**
 
-## 🎯 Mission
+### 🔥 Next Project Loading...
 
-**10 projects completed.
-Core Java getting stronger.
-Next project loading... 🚀**
-
-⭐ **10 Java projects completed and counting!**
+⭐ **11 Java projects completed and counting!**
