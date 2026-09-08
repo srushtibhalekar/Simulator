@@ -180,7 +180,7 @@ A console-based expense management system built using **OOP and ArrayList**.
 * Calculate Total Spending
 * Find Highest Expense
 * Delete Expense
-* Category-wise expense information
+* Category-based expense information
 * Menu-driven interface
 
 **Java Concepts:**
@@ -197,6 +197,36 @@ A console-based expense management system built using **OOP and ArrayList**.
 
 ---
 
+### 🎓 12. Student Grade Manager
+
+A console-based student management system using **OOP and HashMap**.
+
+**Features:**
+
+* Add Student
+* View Students
+* Search Student by Roll Number
+* Calculate Average Marks
+* Find Topper
+* Marks validation
+* Duplicate roll-number validation
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Constructors
+* `HashMap`
+* Key-Value data storage
+* Collections Framework
+* Methods
+* Loops
+* Searching
+* Calculations
+* Menu-driven programming
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -209,6 +239,7 @@ A console-based expense management system built using **OOP and ArrayList**.
 * Arrays
 * Collections Framework
 * ArrayList
+* HashMap
 * Queue
 * LinkedList
 * Switch-Case
@@ -238,11 +269,14 @@ This repository focuses on building a strong foundation in Java.
 * Exception Handling
 * Java Collections
 * ArrayList
+* HashMap
 * Queue
 * LinkedList
 * FIFO
+* Key-Value Data Storage
 * CRUD Operations
 * Searching & Filtering
+* Calculations
 * Menu-Driven Programming
 * User Input Handling
 * Basic Problem Solving
@@ -333,6 +367,13 @@ javac ExpenseTrackerSimulator.java
 java ExpenseTrackerSimulator
 ```
 
+### 🎓 Student Grade Manager
+
+```bash
+javac StudentGradeManager.java
+java StudentGradeManager
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -354,6 +395,7 @@ Java-Simulators/
 ├── ContactManagerSimulator.java
 │
 ├── ExpenseTrackerSimulator.java
+├── StudentGradeManager.java
 │
 └── README.md
 ```
@@ -375,6 +417,7 @@ Java-Simulators/
 |  9 | 🏦 Bank Queue Simulator      | Collections & FIFO |
 | 10 | 📱 Contact Manager Simulator | OOP & ArrayList    |
 | 11 | 💰 Expense Tracker Simulator | OOP & ArrayList    |
+| 12 | 🎓 Student Grade Manager     | OOP & HashMap      |
 
 ---
 
@@ -390,10 +433,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**11 projects completed.**
+**12 projects completed.**
 
 **Core Java → OOP → Collections → Real-world logic**
 
 ### 🔥 Next Project Loading...
 
-⭐ **11 Java projects completed and counting!**
+⭐ **12 Java projects completed and counting!**
