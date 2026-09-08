@@ -433,7 +433,7 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**12 projects completed.**
+**12 projects completed**
 
 **Core Java → OOP → Collections → Real-world logic**
 
