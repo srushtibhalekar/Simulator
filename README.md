@@ -258,6 +258,38 @@ A console-based vehicle rental management system using **OOP, Inheritance, Polym
 
 ---
 
+### 🔧 14. Car Service Center Simulator
+
+A console-based car service management system built using **OOP and ArrayList**.
+
+**Features:**
+
+* Add Service
+* View All Services
+* Search Service by Car Number
+* Calculate Total Revenue
+* Remove Service
+* Service ID generation
+* Service type selection
+* Cost calculation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* Calculations
+* CRUD operations
+* Menu-driven programming
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -266,6 +298,7 @@ A console-based vehicle rental management system using **OOP, Inheritance, Polym
 * Inheritance
 * Polymorphism
 * Method Overriding
+* Encapsulation
 * Scanner
 * Random
 * String
@@ -418,6 +451,13 @@ javac VehicleRentalSimulator.java
 java VehicleRentalSimulator
 ```
 
+### 🔧 Car Service Center Simulator
+
+```bash
+javac CarServiceCenterSimulator.java
+java CarServiceCenterSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -441,6 +481,7 @@ Java-Simulators/
 ├── ExpenseTrackerSimulator.java
 ├── StudentGradeManager.java
 ├── VehicleRentalSimulator.java
+├── CarServiceCenterSimulator.java
 │
 └── README.md
 ```
@@ -449,40 +490,41 @@ Java-Simulators/
 
 ## 📈 Progress
 
-|  # | Project                      | Main Concept               |
-| -: | ---------------------------- | -------------------------- |
-|  1 | 🎲 Dice Simulator            | Random                     |
-|  2 | 🏦 ATM Simulator             | Conditions                 |
-|  3 | ⏱️ Countdown Timer           | Threads                    |
-|  4 | 🔐 Password Generator        | Strings & Random           |
-|  5 | 🎮 Rock Paper Scissors       | Game Logic                 |
-|  6 | 🧠 Memory Number Game        | Arrays & Random            |
-|  7 | 🚗 Parking Lot Simulator     | Arrays & Logic             |
-|  8 | 🚧 Toll Booth Simulator      | OOP & Logic                |
-|  9 | 🏦 Bank Queue Simulator      | Collections & FIFO         |
-| 10 | 📱 Contact Manager Simulator | OOP & ArrayList            |
-| 11 | 💰 Expense Tracker Simulator | OOP & ArrayList            |
-| 12 | 🎓 Student Grade Manager     | OOP & HashMap              |
-| 13 | 🚗 Vehicle Rental Simulator  | Inheritance & Polymorphism |
+|  # | Project                         | Main Concept               |
+| -: | ------------------------------- | -------------------------- |
+|  1 | 🎲 Dice Simulator               | Random                     |
+|  2 | 🏦 ATM Simulator                | Conditions                 |
+|  3 | ⏱️ Countdown Timer              | Threads                    |
+|  4 | 🔐 Password Generator           | Strings & Random           |
+|  5 | 🎮 Rock Paper Scissors          | Game Logic                 |
+|  6 | 🧠 Memory Number Game           | Arrays & Random            |
+|  7 | 🚗 Parking Lot Simulator        | Arrays & Logic             |
+|  8 | 🚧 Toll Booth Simulator         | OOP & Logic                |
+|  9 | 🏦 Bank Queue Simulator         | Collections & FIFO         |
+| 10 | 📱 Contact Manager Simulator    | OOP & ArrayList            |
+| 11 | 💰 Expense Tracker Simulator    | OOP & ArrayList            |
+| 12 | 🎓 Student Grade Manager        | OOP & HashMap              |
+| 13 | 🚗 Vehicle Rental Simulator     | Inheritance & Polymorphism |
+| 14 | 🔧 Car Service Center Simulator | OOP & ArrayList            |
 
 ---
 
 ## 🎯 Learning Mission
 
-> **Build small.
-> Think logically.
-> Practice Core Java.
-> Code consistently.
-> Improve every day.**
+> **Build small.**
+> **Think logically.**
+> **Practice Core Java.**
+> **Code consistently.**
+> **Improve every day.**
 
 ---
 
 ## 🚀 Current Status
 
-**13 projects completed**
+**14 projects completed**
 
 **Core Java → OOP → Collections → Inheritance → Polymorphism → Real-world logic**
 
 ### 🔥 Next Project Loading...
 
-⭐ **13 Java projects completed and counting!**
+⭐ **14 Java projects completed and counting!**
