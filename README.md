@@ -1,6 +1,6 @@
 # 🎮 Java Simulators
 
-A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, programming logic, and user interaction**.
+A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, programming logic, File Handling, Date & Time, and user interaction**.
 
 This repository contains small, practical projects designed to strengthen Java fundamentals through hands-on coding.
 
@@ -290,6 +290,70 @@ A console-based car service management system built using **OOP and ArrayList**.
 
 ---
 
+### 📝 15. Note Manager Simulator
+
+A console-based note management application using **Java File Handling** to save and read notes from a file.
+
+**Features:**
+
+* Add Note
+* View Notes
+* Delete All Notes
+* Persistent note storage
+* File creation and deletion
+* Menu-driven interface
+
+**Java Concepts:**
+
+* File Handling
+* `File`
+* `FileWriter`
+* `FileReader`
+* `BufferedReader`
+* `IOException`
+* Try-with-resources
+* Exception Handling
+* Methods
+* Loops
+* Menu-driven programming
+
+---
+
+### 🗓️ 16. Appointment Scheduler Simulator
+
+A console-based appointment management system using **OOP, ArrayList, and Java Date & Time API**.
+
+**Features:**
+
+* Add Appointment
+* View All Appointments
+* Search Appointment by Name
+* Cancel Appointment
+* Check Appointment Status
+* Date and time management
+* Appointment ID generation
+* Duplicate appointment validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* `LocalDate`
+* `LocalTime`
+* `DateTimeFormatter`
+* Methods
+* Searching
+* Validation
+* CRUD operations
+* Exception Handling
+* Menu-driven programming
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -309,11 +373,21 @@ A console-based car service management system built using **OOP and ArrayList**.
 * HashMap
 * Queue
 * LinkedList
+* File Handling
+* File
+* FileWriter
+* FileReader
+* BufferedReader
+* IOException
+* Exception Handling
 * Switch-Case
 * Loops
 * Methods
-* Exception Handling
 * `Thread.sleep()`
+* Java Date & Time API
+* `LocalDate`
+* `LocalTime`
+* `DateTimeFormatter`
 
 ---
 
@@ -347,6 +421,13 @@ This repository focuses on building a strong foundation in Java.
 * CRUD Operations
 * Searching & Filtering
 * Calculations
+* File Handling
+* File Reading & Writing
+* Persistent Data Storage
+* Java Date & Time
+* `LocalDate`
+* `LocalTime`
+* `DateTimeFormatter`
 * Menu-Driven Programming
 * User Input Handling
 * Basic Problem Solving
@@ -458,6 +539,22 @@ javac CarServiceCenterSimulator.java
 java CarServiceCenterSimulator
 ```
 
+### 📝 Note Manager Simulator
+
+```bash
+javac NotesManagerSimulator.java
+java NotesManagerSimulator
+```
+
+> A `notes.txt` file will be created automatically when you save your first note.
+
+### 🗓️ Appointment Scheduler Simulator
+
+```bash
+javac AppointmentSchedulerSimulator.java
+java AppointmentSchedulerSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -482,6 +579,9 @@ Java-Simulators/
 ├── StudentGradeManager.java
 ├── VehicleRentalSimulator.java
 ├── CarServiceCenterSimulator.java
+├── NotesManagerSimulator.java
+├── AppointmentSchedulerSimulator.java
+├── notes.txt
 │
 └── README.md
 ```
@@ -490,22 +590,24 @@ Java-Simulators/
 
 ## 📈 Progress
 
-|  # | Project                         | Main Concept               |
-| -: | ------------------------------- | -------------------------- |
-|  1 | 🎲 Dice Simulator               | Random                     |
-|  2 | 🏦 ATM Simulator                | Conditions                 |
-|  3 | ⏱️ Countdown Timer              | Threads                    |
-|  4 | 🔐 Password Generator           | Strings & Random           |
-|  5 | 🎮 Rock Paper Scissors          | Game Logic                 |
-|  6 | 🧠 Memory Number Game           | Arrays & Random            |
-|  7 | 🚗 Parking Lot Simulator        | Arrays & Logic             |
-|  8 | 🚧 Toll Booth Simulator         | OOP & Logic                |
-|  9 | 🏦 Bank Queue Simulator         | Collections & FIFO         |
-| 10 | 📱 Contact Manager Simulator    | OOP & ArrayList            |
-| 11 | 💰 Expense Tracker Simulator    | OOP & ArrayList            |
-| 12 | 🎓 Student Grade Manager        | OOP & HashMap              |
-| 13 | 🚗 Vehicle Rental Simulator     | Inheritance & Polymorphism |
-| 14 | 🔧 Car Service Center Simulator | OOP & ArrayList            |
+| #  | Project                             | Main Concept               |
+| -- | ----------------------------------- | -------------------------- |
+| 1  | 🎲 Dice Simulator                   | Random                     |
+| 2  | 🏦 ATM Simulator                    | Conditions                 |
+| 3  | ⏱️ Countdown Timer                  | Threads                    |
+| 4  | 🔐 Password Generator               | Strings & Random           |
+| 5  | 🎮 Rock Paper Scissors              | Game Logic                 |
+| 6  | 🧠 Memory Number Game               | Arrays & Random            |
+| 7  | 🚗 Parking Lot Simulator            | Arrays & Logic             |
+| 8  | 🚧 Toll Booth Simulator             | OOP & Logic                |
+| 9  | 🏦 Bank Queue Simulator             | Collections & FIFO         |
+| 10 | 📱 Contact Manager Simulator        | OOP & ArrayList            |
+| 11 | 💰 Expense Tracker Simulator        | OOP & ArrayList            |
+| 12 | 🎓 Student Grade Manager            | OOP & HashMap              |
+| 13 | 🚗 Vehicle Rental Simulator         | Inheritance & Polymorphism |
+| 14 | 🔧 Car Service Center Simulator     | OOP & ArrayList            |
+| 15 | 📝 Note Manager Simulator           | File Handling              |
+| 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time |
 
 ---
 
@@ -521,10 +623,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**14 projects completed**
+**16 projects completed**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → Real-world logic**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Real-world logic**
 
 ### 🔥 Next Project Loading...
 
-⭐ **14 Java projects completed and counting!**
+⭐ **16 Java projects completed and counting!**
