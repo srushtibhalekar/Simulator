@@ -1,6 +1,6 @@
 # 🎮 Java Simulators
 
-A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, File Handling, Date & Time, programming logic, and user interaction**.
+A collection of **Java console-based simulators and games** built to practice **Core Java, OOP, Collections, programming logic, File Handling, Date & Time, Interfaces, Abstraction, and user interaction**.
 
 This repository contains small, practical projects designed to strengthen Java fundamentals through hands-on coding.
 
@@ -22,7 +22,7 @@ Simulates rolling two dice and displays the results.
 
 ### 🏦 2. ATM Simulator
 
-A console-based ATM system.
+A console-based ATM system that simulates basic banking operations.
 
 **Features:**
 
@@ -30,169 +30,263 @@ A console-based ATM system.
 * Deposit Money
 * Withdraw Money
 * Exit
-* Input validation
+* Balance validation
 
 ---
 
-### ⏳ 3. Countdown Timer
+### ⏱️ 3. Countdown Timer
 
-A simple countdown timer using Java threads.
+A console-based timer that counts down from the number of seconds entered by the user.
 
 **Features:**
 
-* User-defined countdown
-* `Thread.sleep()`
-* Countdown display
-* TIME'S UP message
+* Enter countdown duration
+* Displays remaining time
+* Real-time countdown
+* Shows **TIME'S UP** when finished
+* Uses `Thread.sleep()`
 
 ---
 
 ### 🔐 4. Password Generator
 
-Generates random passwords using different character types.
+Generates a random password based on the length entered by the user.
 
 **Features:**
 
-* Custom password length
-* Random characters
-* Uppercase and lowercase letters
+* Uppercase letters
+* Lowercase letters
 * Numbers
 * Special characters
+* Random password generation
 
 ---
 
-### ✊ 5. Rock Paper Scissors
+### 🎮 5. Rock Paper Scissors
 
-A console-based Rock Paper Scissors game.
+A console-based game where the player competes against the computer.
 
 **Features:**
 
-* Player vs Computer
-* Random computer choice
-* Win/Loss/Draw logic
+* Rock
+* Paper
+* Scissors
+* Random computer moves
 * Score tracking
+* Multiple rounds
 
 ---
 
 ### 🧠 6. Memory Number Game
 
-A number memory game designed to improve logical thinking.
+A memory-based game where the player must remember a randomly generated number.
 
 **Features:**
 
-* Random number generation
-* Number memorization
-* User input
-* Score calculation
+* 5 rounds
+* Random numbers
+* Memory challenge
+* Score tracking
+* Increasing difficulty
 
 ---
 
 ### 🚗 7. Parking Lot Simulator
 
-Simulates a basic parking lot management system.
+A console-based parking management system for managing vehicle parking slots.
 
 **Features:**
 
-* Vehicle entry
-* Vehicle exit
-* Parking slot management
-* Availability checking
+* Park Vehicle
+* Remove Vehicle
+* View Parking Slots
+* Slot availability checking
+* Vehicle number management
 
 ---
 
-### 🛣️ 8. Toll Booth Simulator
+### 🚧 8. Toll Booth Simulator
 
-Simulates toll collection for different types of vehicles.
+A console-based toll collection system for different types of vehicles.
+
+**Toll Rates:**
+
+| Vehicle  | Toll |
+| -------- | ---: |
+| 🚗 Car   |  ₹50 |
+| 🏍️ Bike |  ₹20 |
+| 🚌 Bus   | ₹100 |
+| 🚛 Truck | ₹150 |
 
 **Features:**
 
 * Vehicle type selection
-* Toll calculation
-* Total collection
-* Menu-driven system
+* Automatic toll calculation
+* Vehicle count tracking
+* Total toll collection
+* View collection summary
 
 ---
 
-### 👥 9. Bank Queue Simulator
+### 🏦 9. Bank Queue Simulator
 
-Simulates customer queue management in a bank.
+A console-based bank queue management system using **Java Collections**.
 
 **Features:**
 
-* Add customer
-* Serve customer
-* View queue
-* Queue management using Collections
+* Add Customer
+* Serve Customer
+* View Waiting Queue
+* Customer Count
+* FIFO queue management
+* Uses `Queue` and `LinkedList`
 
 ---
 
 ### 📱 10. Contact Manager Simulator
 
-A console-based contact management system.
+A console-based contact management application built using **Core Java and Collections**.
 
 **Features:**
 
-* Add contact
-* View contacts
-* Search contact
-* Delete contact
-* Store contacts using `ArrayList`
+* Add Contact
+* View Contacts
+* Search Contact
+* Update Contact
+* Delete Contact
+* Phone number and email management
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* `ArrayList`
+* Methods
+* Scanner
+* CRUD operations
 
 ---
 
 ### 💰 11. Expense Tracker Simulator
 
-Tracks daily expenses using Java Collections.
+A console-based expense management system built using **OOP and ArrayList**.
 
 **Features:**
 
-* Add expense
-* View expenses
-* Calculate total expenses
+* Add Expense
+* View Expenses
+* Calculate Total Spending
+* Find Highest Expense
+* Delete Expense
 * Category-based expense information
 * Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Constructors
+* `ArrayList`
+* Loops
+* Methods
+* CRUD operations
+* Searching
+* Calculations
 
 ---
 
 ### 🎓 12. Student Grade Manager
 
-Manages student marks and calculates grades.
+A console-based student management system using **OOP and HashMap**.
 
 **Features:**
 
-* Add student
-* Enter marks
-* Calculate percentage
-* Assign grades
-* Display student details
+* Add Student
+* View Students
+* Search Student by Roll Number
+* Calculate Average Marks
+* Find Topper
+* Marks validation
+* Duplicate roll-number validation
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Constructors
+* `HashMap`
+* Key-Value data storage
+* Collections Framework
+* Methods
+* Loops
+* Searching
+* Calculations
+* Menu-driven programming
 
 ---
 
-### 🚘 13. Vehicle Rental Simulator
+### 🚗 13. Vehicle Rental Simulator
 
-Simulates a simple vehicle rental system.
+A console-based vehicle rental management system using **OOP, Inheritance, Polymorphism, and ArrayList**.
 
 **Features:**
 
-* View available vehicles
-* Rent vehicle
-* Return vehicle
-* Calculate rental cost
-* Vehicle availability management
+* View Vehicles
+* Rent Vehicle
+* Return Vehicle
+* View Rental Status
+* Calculate Rental Cost
+* Vehicle availability checking
+* Supports Cars and Bikes
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Inheritance
+* Method Overriding
+* Polymorphism
+* Constructors
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* Calculations
+* Menu-driven programming
 
 ---
 
 ### 🔧 14. Car Service Center Simulator
 
-Manages customer vehicles at a car service center.
+A console-based car service management system built using **OOP and ArrayList**.
 
 **Features:**
 
-* Add service request
-* View service requests
-* Calculate service cost
-* Update service status
+* Add Service
+* View All Services
+* Search Service by Car Number
+* Calculate Total Revenue
+* Remove Service
+* Service ID generation
+* Service type selection
+* Cost calculation
 * Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* Calculations
+* CRUD operations
+* Menu-driven programming
 
 ---
 
@@ -218,6 +312,10 @@ A console-based note management application using **Java File Handling** to save
 * `BufferedReader`
 * `IOException`
 * Try-with-resources
+* Exception Handling
+* Methods
+* Loops
+* Menu-driven programming
 
 ---
 
@@ -229,18 +327,19 @@ A console-based appointment management system using **OOP, ArrayList, and Java D
 
 * Add Appointment
 * View All Appointments
-* Search by Name
+* Search Appointment by Name
 * Cancel Appointment
 * Check Appointment Status
 * Appointment ID generation
 * Date and time management
 * Duplicate time-slot validation
+* Input validation
 * Menu-driven interface
 
 **Java Concepts:**
 
 * OOP
-* Classes and Objects
+* Classes & Objects
 * Encapsulation
 * Constructors
 * `ArrayList`
@@ -249,14 +348,14 @@ A console-based appointment management system using **OOP, ArrayList, and Java D
 * `DateTimeFormatter`
 * Searching
 * Validation
-* CRUD operations
+* CRUD Operations
 * Exception Handling
 
 ---
 
 ### 👨‍💼 17. Employee Management Simulator
 
-A console-based employee management system demonstrating **Interfaces, Abstraction, Inheritance, Polymorphism, and Collections**.
+A console-based employee management system demonstrating **Interfaces, Abstraction, Inheritance, Polymorphism, and ArrayList**.
 
 **Features:**
 
@@ -283,41 +382,59 @@ A console-based employee management system demonstrating **Interfaces, Abstracti
 * `ArrayList`
 * CRUD Operations
 * Exception Handling
-* Method Overloading
 * User Input
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Java**
+* ☕ Java
 * Core Java
 * OOP
-* Collections
-* Exception Handling
-* File Handling
-* Java Date & Time API
-* `ArrayList`
-* `LocalDate`
-* `LocalTime`
-* `DateTimeFormatter`
-* Interfaces
-* Abstraction
 * Inheritance
 * Polymorphism
-* VS Code
-* Git & GitHub
+* Abstraction
+* Interfaces
+* Method Overriding
+* Encapsulation
+* Scanner
+* Random
+* String
+* StringBuilder
+* Arrays
+* Collections Framework
+* ArrayList
+* HashMap
+* Queue
+* LinkedList
+* File Handling
+* File
+* FileWriter
+* FileReader
+* BufferedReader
+* IOException
+* Exception Handling
+* Date & Time API
+* LocalDate
+* LocalTime
+* DateTimeFormatter
+* Switch-Case
+* Loops
+* Methods
+* `Thread.sleep()`
 
 ---
 
-## 📚 Core Concepts Practiced
+## 📚 Core Java Concepts Practiced
+
+This repository focuses on building a strong foundation in Java.
 
 * Variables & Data Types
-* Conditions
+* Operators
+* Conditional Statements
+* Switch-Case
 * Loops
 * Methods
-* Arrays
-* Strings
 * Classes & Objects
 * Constructors
 * Encapsulation
@@ -325,53 +442,154 @@ A console-based employee management system demonstrating **Interfaces, Abstracti
 * Polymorphism
 * Abstraction
 * Interfaces
-* Collections
-* `ArrayList`
+* Method Overriding
+* Arrays
+* String Handling
+* Random Number Generation
 * Exception Handling
-* File Handling
-* Date & Time
-* Searching
-* Validation
+* Java Collections
+* ArrayList
+* HashMap
+* Queue
+* LinkedList
+* FIFO
+* Key-Value Data Storage
 * CRUD Operations
-* User Interaction
-* Programming Logic
+* Searching & Filtering
+* Calculations
+* File Handling
+* File Reading & Writing
+* Persistent Data Storage
+* Date & Time
+* Input Validation
+* Menu-Driven Programming
+* User Input Handling
+* Basic Problem Solving
+* Multithreading Basics
 
 ---
 
 ## ▶️ How to Run
 
-Clone the repository:
+Make sure Java/JDK is installed and configured.
+
+### 🎲 Dice Simulator
 
 ```bash
-git clone https://github.com/srushtibhalekar/Java-Simulators.git
+javac DiceSimulator.java
+java DiceSimulator
 ```
 
-Move into the project folder:
+### 🏦 ATM Simulator
 
 ```bash
-cd Java-Simulators
+javac ATM.java
+java ATM
 ```
 
-Compile any project:
+### ⏱️ Countdown Timer
 
 ```bash
-javac ProjectName.java
+javac CountdownTimer.java
+java CountdownTimer
 ```
 
-Run:
+### 🔐 Password Generator
 
 ```bash
-java ProjectName
+javac PasswordGenerator.java
+java PasswordGenerator
 ```
 
-### Example — Project 16
+### 🎮 Rock Paper Scissors
+
+```bash
+javac RockPaperScissors.java
+java RockPaperScissors
+```
+
+### 🧠 Memory Number Game
+
+```bash
+javac MemoryNumberGame.java
+java MemoryNumberGame
+```
+
+### 🚗 Parking Lot Simulator
+
+```bash
+javac ParkingLotSimulator.java
+java ParkingLotSimulator
+```
+
+### 🚧 Toll Booth Simulator
+
+```bash
+javac TollBoothSimulator.java
+java TollBoothSimulator
+```
+
+### 🏦 Bank Queue Simulator
+
+```bash
+javac BankQueueSimulator.java
+java BankQueueSimulator
+```
+
+### 📱 Contact Manager Simulator
+
+```bash
+javac Contact.java ContactManagerSimulator.java
+java ContactManagerSimulator
+```
+
+> **Important:** If `ContactManagerSimulator` is declared as `public class ContactManagerSimulator`, the file must be named `ContactManagerSimulator.java`.
+
+### 💰 Expense Tracker Simulator
+
+```bash
+javac ExpenseTrackerSimulator.java
+java ExpenseTrackerSimulator
+```
+
+### 🎓 Student Grade Manager
+
+```bash
+javac StudentGradeManager.java
+java StudentGradeManager
+```
+
+### 🚗 Vehicle Rental Simulator
+
+```bash
+javac VehicleRentalSimulator.java
+java VehicleRentalSimulator
+```
+
+### 🔧 Car Service Center Simulator
+
+```bash
+javac CarServiceCenterSimulator.java
+java CarServiceCenterSimulator
+```
+
+### 📝 Note Manager Simulator
+
+```bash
+javac NotesManagerSimulator.java
+java NotesManagerSimulator
+```
+
+> A `notes.txt` file will be created automatically when you save your first note.
+
+### 🗓️ Appointment Scheduler Simulator
 
 ```bash
 javac AppointmentSchedulerSimulator.java
 java AppointmentSchedulerSimulator
 ```
 
-### Example — Project 17
+### 👨‍💼 Employee Management Simulator
 
 ```bash
 javac EmployeeManagementSimulator.java
@@ -386,7 +604,7 @@ java EmployeeManagementSimulator
 Java-Simulators/
 │
 ├── DiceSimulator.java
-├── ATMSimulator.java
+├── ATM.java
 ├── CountdownTimer.java
 ├── PasswordGenerator.java
 ├── RockPaperScissors.java
@@ -394,77 +612,64 @@ Java-Simulators/
 ├── ParkingLotSimulator.java
 ├── TollBoothSimulator.java
 ├── BankQueueSimulator.java
+│
+├── Contact.java
 ├── ContactManagerSimulator.java
+│
 ├── ExpenseTrackerSimulator.java
 ├── StudentGradeManager.java
 ├── VehicleRentalSimulator.java
 ├── CarServiceCenterSimulator.java
-├── NoteManagerSimulator.java
+├── NotesManagerSimulator.java
 ├── notes.txt
 ├── AppointmentSchedulerSimulator.java
-└── EmployeeManagementSimulator.java
+├── EmployeeManagementSimulator.java
+│
+└── README.md
 ```
 
 ---
 
-## 📊 Progress
+## 📈 Progress
 
-| #  | Project                             | Main Concepts                         |
+| #  | Project                             | Main Concept                          |
 | -- | ----------------------------------- | ------------------------------------- |
-| 1  | 🎲 Dice Simulator                   | Random & Logic                        |
-| 2  | 🏦 ATM Simulator                    | Conditions & Methods                  |
-| 3  | ⏳ Countdown Timer                   | Threads                               |
-| 4  | 🔐 Password Generator               | Random & Strings                      |
-| 5  | ✊ Rock Paper Scissors               | Logic & Random                        |
-| 6  | 🧠 Memory Number Game               | Arrays & Logic                        |
-| 7  | 🚗 Parking Lot Simulator            | OOP & Logic                           |
-| 8  | 🛣️ Toll Booth Simulator            | Conditions & Methods                  |
-| 9  | 👥 Bank Queue Simulator             | Collections                           |
-| 10 | 📱 Contact Manager Simulator        | ArrayList & CRUD                      |
-| 11 | 💰 Expense Tracker Simulator        | Collections & Logic                   |
-| 12 | 🎓 Student Grade Manager            | OOP & Calculations                    |
-| 13 | 🚘 Vehicle Rental Simulator         | OOP & Collections                     |
-| 14 | 🔧 Car Service Center Simulator     | OOP & CRUD                            |
+| 1  | 🎲 Dice Simulator                   | Random                                |
+| 2  | 🏦 ATM Simulator                    | Conditions                            |
+| 3  | ⏱️ Countdown Timer                  | Threads                               |
+| 4  | 🔐 Password Generator               | Strings & Random                      |
+| 5  | 🎮 Rock Paper Scissors              | Game Logic                            |
+| 6  | 🧠 Memory Number Game               | Arrays & Random                       |
+| 7  | 🚗 Parking Lot Simulator            | Arrays & Logic                        |
+| 8  | 🚧 Toll Booth Simulator             | OOP & Logic                           |
+| 9  | 🏦 Bank Queue Simulator             | Collections & FIFO                    |
+| 10 | 📱 Contact Manager Simulator        | OOP & ArrayList                       |
+| 11 | 💰 Expense Tracker Simulator        | OOP & ArrayList                       |
+| 12 | 🎓 Student Grade Manager            | OOP & HashMap                         |
+| 13 | 🚗 Vehicle Rental Simulator         | Inheritance & Polymorphism            |
+| 14 | 🔧 Car Service Center Simulator     | OOP & ArrayList                       |
 | 15 | 📝 Note Manager Simulator           | File Handling                         |
 | 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time            |
 | 17 | 👨‍💼 Employee Management Simulator | Interface, Abstraction & Polymorphism |
 
-**Current Status: 17 projects completed 🚀**
+---
+
+## 🎯 Learning Mission
+
+> **Build small.**
+> **Think logically.**
+> **Practice Core Java.**
+> **Code consistently.**
+> **Improve every day.**
 
 ---
 
-## 🎯 Learning Path
+## 🚀 Current Status
 
-```text
-Core Java
-   ↓
-OOP
-   ↓
-Collections
-   ↓
-Inheritance
-   ↓
-Polymorphism
-   ↓
-File Handling
-   ↓
-Date & Time
-   ↓
-Interfaces & Abstraction
-   ↓
-Real-World Logic
-```
+**17 projects completed 🎉**
 
----
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → Real-world logic**
 
-## 🚀 Goal
+### 🔥 Next Project Loading...
 
-> **Build small. Think logically. Code consistently.**
-
-This repository is a hands-on collection of Java projects created to strengthen programming fundamentals and build practical coding experience.
-
----
-
-## 🔮 Next Project
-
-**Project 18 — Coming Soon...**
+⭐ **17 Java projects completed and counting!**
