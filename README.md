@@ -386,6 +386,44 @@ A console-based employee management system demonstrating **Interfaces, Abstracti
 
 ---
 
+### 📚 18. Library Management Simulator
+
+A console-based library management system using **OOP, Encapsulation, ArrayList, CRUD operations, and searching**.
+
+**Features:**
+
+* Add Book
+* View All Books
+* Search Book by ID
+* Search Book by Title
+* Issue Book
+* Return Book
+* Remove Book
+* Book ID generation
+* Book availability checking
+* Issued-book validation
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* Private fields
+* Getters
+* Methods
+* CRUD Operations
+* Searching
+* Boolean status management
+* Exception Handling
+* Input Validation
+* Menu-driven programming
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -466,6 +504,9 @@ This repository focuses on building a strong foundation in Java.
 * User Input Handling
 * Basic Problem Solving
 * Multithreading Basics
+* Library Management
+* Book Management
+* Status Management
 
 ---
 
@@ -596,6 +637,13 @@ javac EmployeeManagementSimulator.java
 java EmployeeManagementSimulator
 ```
 
+### 📚 Library Management Simulator
+
+```bash
+javac LibraryManagementSimulator.java
+java LibraryManagementSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -624,6 +672,7 @@ Java-Simulators/
 ├── notes.txt
 ├── AppointmentSchedulerSimulator.java
 ├── EmployeeManagementSimulator.java
+├── LibraryManagementSimulator.java
 │
 └── README.md
 ```
@@ -651,6 +700,7 @@ Java-Simulators/
 | 15 | 📝 Note Manager Simulator           | File Handling                         |
 | 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time            |
 | 17 | 👨‍💼 Employee Management Simulator | Interface, Abstraction & Polymorphism |
+| 18 | 📚 Library Management Simulator     | OOP, Encapsulation & ArrayList        |
 
 ---
 
@@ -666,10 +716,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**17 projects completed 🎉**
+**18 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → Real-world logic**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Real-world logic**
 
 ### 🔥 Next Project Loading...
 
-⭐ **17 Java projects completed and counting!**
+⭐ **18 Java projects completed and counting!**
