@@ -111,11 +111,11 @@ A console-based toll collection system for different types of vehicles.
 
 **Toll Rates:**
 
-| Vehicle  | Toll |
+| Vehicle | Toll |
 | -------- | ---: |
-| 🚗 Car   |  ₹50 |
-| 🏍️ Bike |  ₹20 |
-| 🚌 Bus   | ₹100 |
+| 🚗 Car | ₹50 |
+| 🏍️ Bike | ₹20 |
+| 🚌 Bus | ₹100 |
 | 🚛 Truck | ₹150 |
 
 **Features:**
@@ -424,6 +424,50 @@ A console-based library management system using **OOP, Encapsulation, ArrayList,
 
 ---
 
+### 🏨 19. Hotel Reservation Simulator
+
+A console-based hotel reservation management system using **OOP, Inheritance, Polymorphism, Encapsulation, ArrayList, CRUD operations, and calculations**.
+
+**Features:**
+
+* View All Rooms
+* View Available Rooms
+* Add Room
+* Book Room
+* View All Bookings
+* Search Booking
+* Cancel Booking
+* Check-in
+* Check-out
+* Room availability checking
+* Customer information management
+* Booking ID generation
+* Room charge calculation
+* Phone number validation
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Abstract Classes
+* Encapsulation
+* Constructors
+* Inheritance
+* Polymorphism
+* Method Overriding
+* `ArrayList`
+* CRUD Operations
+* Searching
+* Boolean status management
+* Calculations
+* Exception Handling
+* Input Validation
+* Menu-driven programming
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -433,6 +477,7 @@ A console-based library management system using **OOP, Encapsulation, ArrayList,
 * Polymorphism
 * Abstraction
 * Interfaces
+* Abstract Classes
 * Method Overriding
 * Encapsulation
 * Scanner
@@ -481,6 +526,7 @@ This repository focuses on building a strong foundation in Java.
 * Abstraction
 * Interfaces
 * Method Overriding
+* Abstract Classes
 * Arrays
 * String Handling
 * Random Number Generation
@@ -506,6 +552,10 @@ This repository focuses on building a strong foundation in Java.
 * Multithreading Basics
 * Library Management
 * Book Management
+* Hotel Reservation Management
+* Room Availability Management
+* Booking Management
+* Billing Calculations
 * Status Management
 
 ---
@@ -644,6 +694,13 @@ javac LibraryManagementSimulator.java
 java LibraryManagementSimulator
 ```
 
+### 🏨 Hotel Reservation Simulator
+
+```bash
+javac HotelReservationSimulator.java
+java HotelReservationSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -673,6 +730,7 @@ Java-Simulators/
 ├── AppointmentSchedulerSimulator.java
 ├── EmployeeManagementSimulator.java
 ├── LibraryManagementSimulator.java
+├── HotelReservationSimulator.java
 │
 └── README.md
 ```
@@ -681,45 +739,46 @@ Java-Simulators/
 
 ## 📈 Progress
 
-| #  | Project                             | Main Concept                          |
+| #  | Project | Main Concept |
 | -- | ----------------------------------- | ------------------------------------- |
-| 1  | 🎲 Dice Simulator                   | Random                                |
-| 2  | 🏦 ATM Simulator                    | Conditions                            |
-| 3  | ⏱️ Countdown Timer                  | Threads                               |
-| 4  | 🔐 Password Generator               | Strings & Random                      |
-| 5  | 🎮 Rock Paper Scissors              | Game Logic                            |
-| 6  | 🧠 Memory Number Game               | Arrays & Random                       |
-| 7  | 🚗 Parking Lot Simulator            | Arrays & Logic                        |
-| 8  | 🚧 Toll Booth Simulator             | OOP & Logic                           |
-| 9  | 🏦 Bank Queue Simulator             | Collections & FIFO                    |
-| 10 | 📱 Contact Manager Simulator        | OOP & ArrayList                       |
-| 11 | 💰 Expense Tracker Simulator        | OOP & ArrayList                       |
-| 12 | 🎓 Student Grade Manager            | OOP & HashMap                         |
-| 13 | 🚗 Vehicle Rental Simulator         | Inheritance & Polymorphism            |
-| 14 | 🔧 Car Service Center Simulator     | OOP & ArrayList                       |
-| 15 | 📝 Note Manager Simulator           | File Handling                         |
-| 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time            |
+| 1  | 🎲 Dice Simulator | Random |
+| 2  | 🏦 ATM Simulator | Conditions |
+| 3  | ⏱️ Countdown Timer | Threads |
+| 4  | 🔐 Password Generator | Strings & Random |
+| 5  | 🎮 Rock Paper Scissors | Game Logic |
+| 6  | 🧠 Memory Number Game | Arrays & Random |
+| 7  | 🚗 Parking Lot Simulator | Arrays & Logic |
+| 8  | 🚧 Toll Booth Simulator | OOP & Logic |
+| 9  | 🏦 Bank Queue Simulator | Collections & FIFO |
+| 10 | 📱 Contact Manager Simulator | OOP & ArrayList |
+| 11 | 💰 Expense Tracker Simulator | OOP & ArrayList |
+| 12 | 🎓 Student Grade Manager | OOP & HashMap |
+| 13 | 🚗 Vehicle Rental Simulator | Inheritance & Polymorphism |
+| 14 | 🔧 Car Service Center Simulator | OOP & ArrayList |
+| 15 | 📝 Note Manager Simulator | File Handling |
+| 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time |
 | 17 | 👨‍💼 Employee Management Simulator | Interface, Abstraction & Polymorphism |
-| 18 | 📚 Library Management Simulator     | OOP, Encapsulation & ArrayList        |
+| 18 | 📚 Library Management Simulator | OOP, Encapsulation & ArrayList |
+| 19 | 🏨 Hotel Reservation Simulator | Inheritance & Polymorphism |
 
 ---
 
 ## 🎯 Learning Mission
 
-> **Build small.**
-> **Think logically.**
-> **Practice Core Java.**
-> **Code consistently.**
+> **Build small.**  
+> **Think logically.**  
+> **Practice Core Java.**  
+> **Code consistently.**  
 > **Improve every day.**
 
 ---
 
 ## 🚀 Current Status
 
-**18 projects completed 🎉**
+**19 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Real-world logic**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic**
 
 ### 🔥 Next Project Loading...
 
-⭐ **18 Java projects completed and counting!**
+⭐ **19 Java projects completed and counting!**
