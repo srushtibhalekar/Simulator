@@ -468,6 +468,77 @@ A console-based hotel reservation management system using **OOP, Inheritance, Po
 
 ---
 
+### 🛒 20. Shopping Cart Simulator
+
+A console-based shopping cart management system using **OOP, Encapsulation, ArrayList, CRUD operations, and calculations**.
+
+**Features:**
+
+* View Products
+* Add Product to Cart
+* Add Multiple Quantities
+* View Shopping Cart
+* Remove Product from Cart
+* Calculate Total Amount
+* Calculate Total Items
+* Clear Cart
+* Product and cart management
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* Private fields
+* Getters
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* Calculations
+* CRUD Operations
+* Object interaction
+* Input Validation
+* Menu-driven programming
+
+---
+
+### 🛒 21. Shopping Cart Simulator
+
+A console-based shopping cart application that allows users to view products, add products to a cart, remove products, calculate the total price, and clear the cart.
+
+**Features:**
+
+* View available products
+* Add products to cart
+* Add multiple quantities of the same product
+* View shopping cart
+* Remove products from cart
+* Calculate total cart amount
+* Display total number of items
+* Clear cart
+* Menu-driven interface
+
+**Java Concepts:**
+
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* Methods
+* `ArrayList`
+* Loops
+* Conditional Statements
+* `switch-case`
+* Object interaction
+* Scanner
+* Basic OOP design
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -556,6 +627,11 @@ This repository focuses on building a strong foundation in Java.
 * Room Availability Management
 * Booking Management
 * Billing Calculations
+* Shopping Cart Management
+* Product Management
+* Cart Item Management
+* Total Price Calculation
+* Quantity Management
 * Status Management
 
 ---
@@ -701,6 +777,13 @@ javac HotelReservationSimulator.java
 java HotelReservationSimulator
 ```
 
+### 🛒 Shopping Cart Simulator
+
+```bash
+javac ShoppingCartSimulator.java
+java ShoppingCartSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -731,6 +814,7 @@ Java-Simulators/
 ├── EmployeeManagementSimulator.java
 ├── LibraryManagementSimulator.java
 ├── HotelReservationSimulator.java
+├── ShoppingCartSimulator.java
 │
 └── README.md
 ```
@@ -760,6 +844,8 @@ Java-Simulators/
 | 17 | 👨‍💼 Employee Management Simulator | Interface, Abstraction & Polymorphism |
 | 18 | 📚 Library Management Simulator | OOP, Encapsulation & ArrayList |
 | 19 | 🏨 Hotel Reservation Simulator | Inheritance & Polymorphism |
+| 20 | 🛒 Shopping Cart Simulator | OOP, Encapsulation & ArrayList |
+
 
 ---
 
@@ -775,10 +861,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**19 projects completed 🎉**
+**20 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart Management**
 
 ### 🔥 Next Project Loading...
 
-⭐ **19 Java projects completed and counting!**
+⭐ **20 Java projects completed and counting!**
