@@ -111,11 +111,11 @@ A console-based toll collection system for different types of vehicles.
 
 **Toll Rates:**
 
-| Vehicle | Toll |
+| Vehicle  | Toll |
 | -------- | ---: |
-| 🚗 Car | ₹50 |
-| 🏍️ Bike | ₹20 |
-| 🚌 Bus | ₹100 |
+| 🚗 Car   |  ₹50 |
+| 🏍️ Bike |  ₹20 |
+| 🚌 Bus   | ₹100 |
 | 🚛 Truck | ₹150 |
 
 **Features:**
@@ -506,20 +506,25 @@ A console-based shopping cart management system using **OOP, Encapsulation, Arra
 
 ---
 
-### 🛒 21. Shopping Cart Simulator
+### 📦 21. Inventory Management Simulator
 
-A console-based shopping cart application that allows users to view products, add products to a cart, remove products, calculate the total price, and clear the cart.
+A console-based inventory management system for managing products, stock quantities, and inventory operations.
 
 **Features:**
 
-* View available products
-* Add products to cart
-* Add multiple quantities of the same product
-* View shopping cart
-* Remove products from cart
-* Calculate total cart amount
-* Display total number of items
-* Clear cart
+* Add Product
+* View All Products
+* Search Product by ID
+* Search Product by Name
+* Update Product Quantity
+* Remove Product
+* Restock Product
+* Sell Product
+* Check Available Stock
+* Calculate Total Inventory Value
+* Product ID generation
+* Stock availability checking
+* Input validation
 * Menu-driven interface
 
 **Java Concepts:**
@@ -528,14 +533,17 @@ A console-based shopping cart application that allows users to view products, ad
 * Classes & Objects
 * Encapsulation
 * Constructors
-* Methods
+* Private fields
+* Getters & Setters
 * `ArrayList`
 * Loops
-* Conditional Statements
-* `switch-case`
-* Object interaction
-* Scanner
-* Basic OOP design
+* Methods
+* Searching
+* Calculations
+* CRUD Operations
+* Object Interaction
+* Input Validation
+* Menu-driven programming
 
 ---
 
@@ -633,6 +641,10 @@ This repository focuses on building a strong foundation in Java.
 * Total Price Calculation
 * Quantity Management
 * Status Management
+* Inventory Management
+* Stock Management
+* Stock Quantity Tracking
+* Inventory Value Calculation
 
 ---
 
@@ -706,11 +718,9 @@ java BankQueueSimulator
 ### 📱 Contact Manager Simulator
 
 ```bash
-javac Contact.java ContactManagerSimulator.java
+javac ContactManagerSimulator.java
 java ContactManagerSimulator
 ```
-
-> **Important:** If `ContactManagerSimulator` is declared as `public class ContactManagerSimulator`, the file must be named `ContactManagerSimulator.java`.
 
 ### 💰 Expense Tracker Simulator
 
@@ -747,8 +757,6 @@ javac NotesManagerSimulator.java
 java NotesManagerSimulator
 ```
 
-> A `notes.txt` file will be created automatically when you save your first note.
-
 ### 🗓️ Appointment Scheduler Simulator
 
 ```bash
@@ -784,6 +792,13 @@ javac ShoppingCartSimulator.java
 java ShoppingCartSimulator
 ```
 
+### 📦 Inventory Management Simulator
+
+```bash
+javac InventoryManagementSimulator.java
+java InventoryManagementSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -800,10 +815,7 @@ Java-Simulators/
 ├── ParkingLotSimulator.java
 ├── TollBoothSimulator.java
 ├── BankQueueSimulator.java
-│
-├── Contact.java
 ├── ContactManagerSimulator.java
-│
 ├── ExpenseTrackerSimulator.java
 ├── StudentGradeManager.java
 ├── VehicleRentalSimulator.java
@@ -815,6 +827,7 @@ Java-Simulators/
 ├── LibraryManagementSimulator.java
 ├── HotelReservationSimulator.java
 ├── ShoppingCartSimulator.java
+├── InventoryManagementSimulator.java
 │
 └── README.md
 ```
@@ -823,48 +836,48 @@ Java-Simulators/
 
 ## 📈 Progress
 
-| #  | Project | Main Concept |
-| -- | ----------------------------------- | ------------------------------------- |
-| 1  | 🎲 Dice Simulator | Random |
-| 2  | 🏦 ATM Simulator | Conditions |
-| 3  | ⏱️ Countdown Timer | Threads |
-| 4  | 🔐 Password Generator | Strings & Random |
-| 5  | 🎮 Rock Paper Scissors | Game Logic |
-| 6  | 🧠 Memory Number Game | Arrays & Random |
-| 7  | 🚗 Parking Lot Simulator | Arrays & Logic |
-| 8  | 🚧 Toll Booth Simulator | OOP & Logic |
-| 9  | 🏦 Bank Queue Simulator | Collections & FIFO |
-| 10 | 📱 Contact Manager Simulator | OOP & ArrayList |
-| 11 | 💰 Expense Tracker Simulator | OOP & ArrayList |
-| 12 | 🎓 Student Grade Manager | OOP & HashMap |
-| 13 | 🚗 Vehicle Rental Simulator | Inheritance & Polymorphism |
-| 14 | 🔧 Car Service Center Simulator | OOP & ArrayList |
-| 15 | 📝 Note Manager Simulator | File Handling |
-| 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time |
+|  # | Project                             | Main Concept                          |
+| -: | ----------------------------------- | ------------------------------------- |
+|  1 | 🎲 Dice Simulator                   | Random                                |
+|  2 | 🏦 ATM Simulator                    | Conditions                            |
+|  3 | ⏱️ Countdown Timer                  | Threads                               |
+|  4 | 🔐 Password Generator               | Strings & Random                      |
+|  5 | 🎮 Rock Paper Scissors              | Game Logic                            |
+|  6 | 🧠 Memory Number Game               | Arrays & Random                       |
+|  7 | 🚗 Parking Lot Simulator            | Arrays & Logic                        |
+|  8 | 🚧 Toll Booth Simulator             | OOP & Logic                           |
+|  9 | 🏦 Bank Queue Simulator             | Collections & FIFO                    |
+| 10 | 📱 Contact Manager Simulator        | OOP & ArrayList                       |
+| 11 | 💰 Expense Tracker Simulator        | OOP & ArrayList                       |
+| 12 | 🎓 Student Grade Manager            | OOP & HashMap                         |
+| 13 | 🚗 Vehicle Rental Simulator         | Inheritance & Polymorphism            |
+| 14 | 🔧 Car Service Center Simulator     | OOP & ArrayList                       |
+| 15 | 📝 Note Manager Simulator           | File Handling                         |
+| 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time            |
 | 17 | 👨‍💼 Employee Management Simulator | Interface, Abstraction & Polymorphism |
-| 18 | 📚 Library Management Simulator | OOP, Encapsulation & ArrayList |
-| 19 | 🏨 Hotel Reservation Simulator | Inheritance & Polymorphism |
-| 20 | 🛒 Shopping Cart Simulator | OOP, Encapsulation & ArrayList |
-
+| 18 | 📚 Library Management Simulator     | OOP, Encapsulation & ArrayList        |
+| 19 | 🏨 Hotel Reservation Simulator      | Inheritance & Polymorphism            |
+| 20 | 🛒 Shopping Cart Simulator          | OOP, Encapsulation & ArrayList        |
+| 21 | 📦 Inventory Management Simulator   | OOP, ArrayList & CRUD                 |
 
 ---
 
 ## 🎯 Learning Mission
 
-> **Build small.**  
-> **Think logically.**  
-> **Practice Core Java.**  
-> **Code consistently.**  
+> **Build small.**
+> **Think logically.**
+> **Practice Core Java.**
+> **Code consistently.**
 > **Improve every day.**
 
 ---
 
 ## 🚀 Current Status
 
-**20 projects completed 🎉**
+**21 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart Management**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management**
 
 ### 🔥 Next Project Loading...
 
-⭐ **20 Java projects completed and counting!**
+⭐ **21 Java projects completed and counting!**
