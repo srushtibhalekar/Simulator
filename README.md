@@ -547,6 +547,49 @@ A console-based inventory management system for managing products, stock quantit
 
 ---
 
+### 🏥 22. Hospital Management Simulator
+
+A console-based hospital management system built using **Core Java and Object-Oriented Programming concepts**.
+
+**Features:**
+
+* Add Patient
+* View All Patients
+* Search Patient by ID
+* Search Patient by Name
+* Update Patient Details
+* Remove Patient
+* Add Doctor
+* View All Doctors
+* Assign Doctor to Patient
+* View Patient Doctor Details
+* Automatic Patient ID generation
+* Automatic Doctor ID generation
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* Private Fields
+* Getters & Setters
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* CRUD Operations
+* Object Interaction
+* Input Validation
+* Menu-driven Programming
+* Switch-Case
+* Exception Handling
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -645,6 +688,11 @@ This repository focuses on building a strong foundation in Java.
 * Stock Management
 * Stock Quantity Tracking
 * Inventory Value Calculation
+* Hospital Management
+* Patient Management
+* Doctor Management
+* Patient-Doctor Assignment
+* Healthcare Record Management
 
 ---
 
@@ -799,6 +847,13 @@ javac InventoryManagementSimulator.java
 java InventoryManagementSimulator
 ```
 
+### 🏥 Hospital Management Simulator
+
+```bash
+javac HospitalManagementSimulator.java
+java HospitalManagementSimulator
+```
+
 ---
 
 ## 📂 Repository Structure
@@ -828,6 +883,7 @@ Java-Simulators/
 ├── HotelReservationSimulator.java
 ├── ShoppingCartSimulator.java
 ├── InventoryManagementSimulator.java
+├── HospitalManagementSimulator.java
 │
 └── README.md
 ```
@@ -859,6 +915,7 @@ Java-Simulators/
 | 19 | 🏨 Hotel Reservation Simulator      | Inheritance & Polymorphism            |
 | 20 | 🛒 Shopping Cart Simulator          | OOP, Encapsulation & ArrayList        |
 | 21 | 📦 Inventory Management Simulator   | OOP, ArrayList & CRUD                 |
+| 22 | 🏥 Hospital Management Simulator    | OOP, ArrayList & CRUD                 |
 
 ---
 
@@ -874,10 +931,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**21 projects completed 🎉**
+**22 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management**
 
 ### 🔥 Next Project Loading...
 
-⭐ **21 Java projects completed and counting!**
+⭐ **22 Java projects completed and counting!**
