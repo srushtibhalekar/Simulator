@@ -590,6 +590,52 @@ A console-based hospital management system built using **Core Java and Object-Or
 
 ---
 
+### 💳 23. Loan Management Simulator
+
+A console-based loan management system built using **Core Java, OOP, ArrayList, and financial calculations**.
+
+**Features:**
+
+* Add Customer
+* View All Customers
+* Search Customer by ID
+* Apply for Loan
+* View All Loans
+* Search Loan by ID
+* Calculate Loan EMI
+* Make Loan Payment
+* Track Outstanding Balance
+* Update Loan Status
+* Remove Loan
+* Automatic Customer ID generation
+* Automatic Loan ID generation
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* Private Fields
+* Getters & Setters
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* CRUD Operations
+* Object Interaction
+* Calculations
+* EMI Calculation
+* Input Validation
+* Switch-Case
+* Exception Handling
+* Menu-driven Programming
+
+---
+
 ## 🛠️ Tech Stack
 
 * ☕ Java
@@ -693,6 +739,12 @@ This repository focuses on building a strong foundation in Java.
 * Doctor Management
 * Patient-Doctor Assignment
 * Healthcare Record Management
+* Loan Management
+* Customer Management
+* Loan Application Management
+* EMI Calculation
+* Loan Payment Tracking
+* Outstanding Balance Tracking
 
 ---
 
@@ -854,6 +906,15 @@ javac HospitalManagementSimulator.java
 java HospitalManagementSimulator
 ```
 
+
+### 💳 Loan Management Simulator
+
+```bash
+javac LoanManagementSimulator.java
+java LoanManagementSimulator
+```
+
+
 ---
 
 ## 📂 Repository Structure
@@ -884,6 +945,7 @@ Java-Simulators/
 ├── ShoppingCartSimulator.java
 ├── InventoryManagementSimulator.java
 ├── HospitalManagementSimulator.java
+├── LoanManagementSimulator.java
 │
 └── README.md
 ```
@@ -916,6 +978,7 @@ Java-Simulators/
 | 20 | 🛒 Shopping Cart Simulator          | OOP, Encapsulation & ArrayList        |
 | 21 | 📦 Inventory Management Simulator   | OOP, ArrayList & CRUD                 |
 | 22 | 🏥 Hospital Management Simulator    | OOP, ArrayList & CRUD                 |
+| 23 | 💳 Loan Management Simulator        | OOP, ArrayList & Calculations        |
 
 ---
 
@@ -931,10 +994,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**22 projects completed 🎉**
+**23 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management**
 
 ### 🔥 Next Project Loading...
 
-⭐ **22 Java projects completed and counting!**
+⭐ **23 Java projects completed and counting!**
