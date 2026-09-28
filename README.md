@@ -675,6 +675,47 @@ A console-based loan management system built using **Core Java, OOP, ArrayList, 
 * `Thread.sleep()`
 
 ---
+### 🏦 24. Banking Transaction Simulator
+
+A console-based banking transaction management system built using **Core Java, OOP, ArrayList, CRUD operations, and transaction processing**.
+
+**Features:**
+
+* Create Bank Account
+* View All Accounts
+* Search Account by ID
+* Deposit Money
+* Withdraw Money
+* Transfer Money
+* Check Account Balance
+* View Transaction History
+* Close Bank Account
+* Automatic Account ID generation
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* Private Fields
+* Getters & Setters
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* CRUD Operations
+* Object Interaction
+* Transaction Processing
+* Balance Management
+* Input Validation
+* Switch-Case
+* Exception Handling
+* Menu-driven Programming
+
 
 ## 📚 Core Java Concepts Practiced
 
@@ -916,7 +957,11 @@ java LoanManagementSimulator
 
 
 ---
-
+### 💳 Banking Transaction Simulator
+```bash
+javac BankingTransactionSimulator.java 
+java BankingTransactionSimulator
+```
 ## 📂 Repository Structure
 
 ```text
@@ -946,6 +991,7 @@ Java-Simulators/
 ├── InventoryManagementSimulator.java
 ├── HospitalManagementSimulator.java
 ├── LoanManagementSimulator.java
+├── BankingTransactionSimulator.java
 │
 └── README.md
 ```
@@ -971,14 +1017,16 @@ Java-Simulators/
 | 13 | 🚗 Vehicle Rental Simulator         | Inheritance & Polymorphism            |
 | 14 | 🔧 Car Service Center Simulator     | OOP & ArrayList                       |
 | 15 | 📝 Note Manager Simulator           | File Handling                         |
-| 16 | 🗓️ Appointment Scheduler Simulator | OOP, ArrayList & Date-Time            |
-| 17 | 👨‍💼 Employee Management Simulator | Interface, Abstraction & Polymorphism |
+| 16 | 🗓️ Appointment Scheduler Simulator  | OOP, ArrayList & Date-Time            |
+| 17 | 👨‍💼 Employee Management Simulator    | Interface, Abstraction & Polymorphism |
 | 18 | 📚 Library Management Simulator     | OOP, Encapsulation & ArrayList        |
 | 19 | 🏨 Hotel Reservation Simulator      | Inheritance & Polymorphism            |
 | 20 | 🛒 Shopping Cart Simulator          | OOP, Encapsulation & ArrayList        |
 | 21 | 📦 Inventory Management Simulator   | OOP, ArrayList & CRUD                 |
 | 22 | 🏥 Hospital Management Simulator    | OOP, ArrayList & CRUD                 |
-| 23 | 💳 Loan Management Simulator        | OOP, ArrayList & Calculations        |
+| 23 | 💳 Loan Management Simulator        | OOP, ArrayList & Calculations         |
+|  24|   🏦 Banking Transaction Simulator  |OOP, ArrayList & Transactions          |
+
 
 ---
 
@@ -994,10 +1042,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**23 projects completed 🎉**
+**24projects completed 🎉**
 
 **Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management**
 
 ### 🔥 Next Project Loading...
 
-⭐ **23 Java projects completed and counting!**
+⭐ **24 Java projects completed and counting!**
