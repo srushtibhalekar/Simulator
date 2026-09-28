@@ -955,9 +955,9 @@ javac LoanManagementSimulator.java
 java LoanManagementSimulator
 ```
 
-
 ---
 ### 💳 Banking Transaction Simulator
+
 ```bash
 javac BankingTransactionSimulator.java 
 java BankingTransactionSimulator
@@ -992,7 +992,6 @@ Java-Simulators/
 ├── HospitalManagementSimulator.java
 ├── LoanManagementSimulator.java
 ├── BankingTransactionSimulator.java
-│
 └── README.md
 ```
 
@@ -1044,7 +1043,7 @@ Java-Simulators/
 
 **24projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Bank Transaction Managemnet**
 
 ### 🔥 Next Project Loading...
 
