@@ -716,6 +716,53 @@ A console-based banking transaction management system built using **Core Java, O
 * Exception Handling
 * Menu-driven Programming
 
+* ### 🍽️ 25. Restaurant Management Simulator
+
+A console-based restaurant management system built using **Core Java, OOP, ArrayList, CRUD operations, order management, and calculations**.
+
+**Features:**
+
+* Add Menu Item
+* View Restaurant Menu
+* Search Menu Item
+* Update Menu Item
+* Remove Menu Item
+* Place Customer Order
+* View All Orders
+* Calculate Order Bill
+* GST Calculation
+* Update Order Status
+* Cancel Order
+* Automatic Item ID generation
+* Automatic Order ID generation
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* Private Fields
+* Getters & Setters
+* `ArrayList`
+* Loops
+* Methods
+* Searching
+* CRUD Operations
+* Object Interaction
+* Order Management
+* Calculations
+* GST Calculation
+* Input Validation
+* Switch-Case
+* Exception Handling
+* Menu-driven Programming
+
+---
+
 
 ## 📚 Core Java Concepts Practiced
 
@@ -962,6 +1009,15 @@ java LoanManagementSimulator
 javac BankingTransactionSimulator.java 
 java BankingTransactionSimulator
 ```
+
+###  🍽️ Restaurant Management Simulator
+```bash
+javac RestaurantManagementSimulator.java
+java RestaurantManagementSimulator
+```
+
+
+
 ## 📂 Repository Structure
 
 ```text
@@ -992,6 +1048,7 @@ Java-Simulators/
 ├── HospitalManagementSimulator.java
 ├── LoanManagementSimulator.java
 ├── BankingTransactionSimulator.java
+├── RestaurantManagementSimulator.java
 └── README.md
 ```
 
@@ -1025,6 +1082,7 @@ Java-Simulators/
 | 22 | 🏥 Hospital Management Simulator    | OOP, ArrayList & CRUD                 |
 | 23 | 💳 Loan Management Simulator        | OOP, ArrayList & Calculations         |
 |  24|   🏦 Banking Transaction Simulator  |OOP, ArrayList & Transactions          |
+| 25 | 🍽️ Restaurant Management Simulator | OOP, ArrayList & Order Management      |
 
 
 ---
@@ -1041,10 +1099,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**24projects completed 🎉**
+**25projects completed 🎉**
 
 **Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Bank Transaction Managemnet**
 
 ### 🔥 Next Project Loading...
 
-⭐ **24 Java projects completed and counting!**
+⭐ **25 Java projects completed and counting!**
