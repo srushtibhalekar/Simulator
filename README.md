@@ -762,6 +762,52 @@ A console-based restaurant management system built using **Core Java, OOP, Array
 * Menu-driven Programming
 
 ---
+### 🛡️ 26. Cyber Incident Response Simulator
+
+A console-based **cyber incident response simulator** that simulates a basic SOC analyst workflow for detecting, analyzing, and responding to security incidents.
+
+**Features:**
+
+* Generate Security Incident
+* View All Incidents
+* Analyze Incident
+* Assign Incident Severity
+* Block Suspicious IP
+* Reset Compromised Credential
+* Close Security Incident
+* View Security Statistics
+* Generate Incident Report
+* Track Incident Detection Time
+* Calculate Analyst Response Score
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* `HashMap`
+* `enum`
+* `Random`
+* `Scanner`
+* `LocalDateTime`
+* `DateTimeFormatter`
+* File Handling
+* `FileWriter`
+* Try-with-resources
+* Exception Handling
+* Loops
+* Methods
+* Searching
+* Calculations
+* Input Validation
+* Switch-Case
+* Menu-driven Programming
+
 
 
 ## 📚 Core Java Concepts Practiced
@@ -1015,6 +1061,10 @@ java BankingTransactionSimulator
 javac RestaurantManagementSimulator.java
 java RestaurantManagementSimulator
 ```
+### 🛡️ Cyber Incident Response Simulator
+
+javac CyberIncidentResponseSimulator.java
+java CyberIncidentResponseSimulator
 
 
 
@@ -1049,6 +1099,7 @@ Java-Simulators/
 ├── LoanManagementSimulator.java
 ├── BankingTransactionSimulator.java
 ├── RestaurantManagementSimulator.java
+├── CyberIncidentResponseSimulator.java
 └── README.md
 ```
 
@@ -1083,6 +1134,7 @@ Java-Simulators/
 | 23 | 💳 Loan Management Simulator        | OOP, ArrayList & Calculations         |
 |  24|   🏦 Banking Transaction Simulator  |OOP, ArrayList & Transactions          |
 | 25 | 🍽️ Restaurant Management Simulator | OOP, ArrayList & Order Management      |
+| 26 | 🛡️ Cyber Incident Response Simulator | OOP, Collections, File Handling & Security Logic |
 
 
 ---
@@ -1099,7 +1151,7 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**25projects completed 🎉**
+**26projects completed 🎉**
 
 **Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Bank Transaction Managemnet**
 
