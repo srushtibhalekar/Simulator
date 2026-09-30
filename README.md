@@ -1062,9 +1062,10 @@ javac RestaurantManagementSimulator.java
 java RestaurantManagementSimulator
 ```
 ### 🛡️ Cyber Incident Response Simulator
-
+```bash
 javac CyberIncidentResponseSimulator.java
 java CyberIncidentResponseSimulator
+```
 
 
 
