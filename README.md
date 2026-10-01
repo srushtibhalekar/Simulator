@@ -1213,10 +1213,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**26projects completed 🎉**
+**27projects completed 🎉**
 
 **Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Bank Transaction Managemnet**
 
 ### 🔥 Next Project Loading...
 
-⭐ **26 Java projects completed and counting!**
+⭐ **27 Java projects completed and counting!**
