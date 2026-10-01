@@ -808,6 +808,60 @@ A console-based **cyber incident response simulator** that simulates a basic SOC
 * Switch-Case
 * Menu-driven Programming
 
+### 🌐 27. Network Traffic Analyzer Simulator
+
+A console-based **Network Traffic Analyzer Simulator** that generates synthetic network packets and analyzes them for suspicious traffic patterns.
+
+> This project uses simulated traffic only. It does not capture, scan, or interfere with real network traffic.
+
+**Features:**
+
+* Generate Synthetic Network Traffic
+* View Network Packets
+* Analyze Traffic
+* Detect Suspicious IP Addresses
+* Detect High-Volume Traffic
+* Block IP Addresses
+* View Traffic Statistics
+* Sort Packets by Size
+* Search Traffic by IP Address
+* Classify Traffic as Normal, Suspicious, or Malicious
+* Generate Network Traffic Analysis Report
+* Track Packet Timestamp
+* Protocol Statistics
+* IP Traffic Statistics
+* Input validation
+* Menu-driven interface
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* `HashMap`
+* `HashSet`
+* `enum`
+* `Random`
+* `Scanner`
+* `Comparator`
+* `Collections`
+* `LocalDateTime`
+* `DateTimeFormatter`
+* File Handling
+* `FileWriter`
+* Try-with-resources
+* Exception Handling
+* Searching
+* Sorting
+* Calculations
+* Input Validation
+* Switch-Case
+* Menu-driven Programming
+
+
 
 
 ## 📚 Core Java Concepts Practiced
@@ -1066,6 +1120,11 @@ java RestaurantManagementSimulator
 javac CyberIncidentResponseSimulator.java
 java CyberIncidentResponseSimulator
 ```
+### 🌐 Network Traffic Analyzer Simulator
+
+```bash
+javac NetworkTrafficAnalyzerSimulator.java
+java NetworkTrafficAnalyzerSimulator
 
 
 
@@ -1101,6 +1160,7 @@ Java-Simulators/
 ├── BankingTransactionSimulator.java
 ├── RestaurantManagementSimulator.java
 ├── CyberIncidentResponseSimulator.java
+├── NetworkTrafficAnalyzerSimulator.java
 └── README.md
 ```
 
@@ -1136,6 +1196,7 @@ Java-Simulators/
 |  24|   🏦 Banking Transaction Simulator  |OOP, ArrayList & Transactions          |
 | 25 | 🍽️ Restaurant Management Simulator | OOP, ArrayList & Order Management      |
 | 26 | 🛡️ Cyber Incident Response Simulator | OOP, Collections, File Handling & Security Logic |
+| 27 | 🌐 Network Traffic Analyzer Simulator | OOP, Collections, Analysis & File Handling |
 
 
 ---
