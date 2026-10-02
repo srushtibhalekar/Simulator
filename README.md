@@ -936,6 +936,69 @@ This repository focuses on building a strong foundation in Java.
 
 ---
 
+### 🔎 28. Log Threat Detection Simulator
+
+A console-based **Log Threat Detection Simulator** that generates synthetic server logs and analyzes them for suspicious activity and potential security threats.
+
+> This project uses synthetic logs only. It does not access, monitor, or modify real system logs.
+
+**Features:**
+
+* Generate Synthetic Server Logs
+* View All Logs
+* Analyze Security Logs
+* Detect Repeated Failed Login Patterns
+* Detect Suspicious IP Addresses
+* Detect Sensitive Resource Access
+* Detect Unusual Login Times
+* Assign Threat Levels
+* Filter Logs by Threat Level
+* Search Logs by IP Address
+* Display Threat Statistics
+* Sort Logs by Timestamp
+* Track IP Activity
+* Generate Security Report
+* Input Validation
+* Menu-driven Interface
+
+**Threat Levels:**
+
+* `NORMAL`
+* `WARNING`
+* `HIGH`
+* `CRITICAL`
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* `HashMap`
+* `HashSet`
+* `enum`
+* `Random`
+* `Scanner`
+* `Collections`
+* `Comparator`
+* `LocalDateTime`
+* `LocalTime`
+* `DateTimeFormatter`
+* File Handling
+* `FileWriter`
+* Try-with-resources
+* Exception Handling
+* Searching
+* Sorting
+* String Processing
+* Calculations
+* Input Validation
+* Switch-Case
+* Menu-driven Programming
+
+
 ## ▶️ How to Run
 
 Make sure Java/JDK is installed and configured.
@@ -1126,6 +1189,12 @@ java CyberIncidentResponseSimulator
 javac NetworkTrafficAnalyzerSimulator.java
 java NetworkTrafficAnalyzerSimulator
 
+### 🔎 Log Threat Detection Simulator
+
+```bash
+javac LogThreatDetectionSimulator.java
+java LogThreatDetectionSimulator
+
 
 
 ## 📂 Repository Structure
@@ -1161,6 +1230,7 @@ Java-Simulators/
 ├── RestaurantManagementSimulator.java
 ├── CyberIncidentResponseSimulator.java
 ├── NetworkTrafficAnalyzerSimulator.java
+├── LogThreatDetectionSimulator.java
 └── README.md
 ```
 
@@ -1197,6 +1267,7 @@ Java-Simulators/
 | 25 | 🍽️ Restaurant Management Simulator | OOP, ArrayList & Order Management      |
 | 26 | 🛡️ Cyber Incident Response Simulator | OOP, Collections, File Handling & Security Logic |
 | 27 | 🌐 Network Traffic Analyzer Simulator | OOP, Collections, Analysis & File Handling |
+| 28 | 🔎 Log Threat Detection Simulator | OOP, Collections, Log Analysis & Threat Detection |
 
 
 ---
@@ -1213,10 +1284,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**27projects completed 🎉**
+**28projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Bank Transaction Managemnet**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world Logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Banking Transactions → Restaurant Management → Security & Incident Response → Network Traffic Analysis → Log Threat Detection**
 
 ### 🔥 Next Project Loading...
 
-⭐ **27 Java projects completed and counting!**
+⭐ **28 Java projects completed and counting!**
