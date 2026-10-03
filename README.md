@@ -165,7 +165,7 @@ A console-based contact management application built using **Core Java and Colle
 * `ArrayList`
 * Methods
 * Scanner
-* CRUD operations
+* CRUD Operations
 
 ---
 
@@ -191,7 +191,7 @@ A console-based expense management system built using **OOP and ArrayList**.
 * `ArrayList`
 * Loops
 * Methods
-* CRUD operations
+* CRUD Operations
 * Searching
 * Calculations
 
@@ -285,7 +285,7 @@ A console-based car service management system built using **OOP and ArrayList**.
 * Methods
 * Searching
 * Calculations
-* CRUD operations
+* CRUD Operations
 * Menu-driven programming
 
 ---
@@ -636,45 +636,6 @@ A console-based loan management system built using **Core Java, OOP, ArrayList, 
 
 ---
 
-## 🛠️ Tech Stack
-
-* ☕ Java
-* Core Java
-* OOP
-* Inheritance
-* Polymorphism
-* Abstraction
-* Interfaces
-* Abstract Classes
-* Method Overriding
-* Encapsulation
-* Scanner
-* Random
-* String
-* StringBuilder
-* Arrays
-* Collections Framework
-* ArrayList
-* HashMap
-* Queue
-* LinkedList
-* File Handling
-* File
-* FileWriter
-* FileReader
-* BufferedReader
-* IOException
-* Exception Handling
-* Date & Time API
-* LocalDate
-* LocalTime
-* DateTimeFormatter
-* Switch-Case
-* Loops
-* Methods
-* `Thread.sleep()`
-
----
 ### 🏦 24. Banking Transaction Simulator
 
 A console-based banking transaction management system built using **Core Java, OOP, ArrayList, CRUD operations, and transaction processing**.
@@ -716,7 +677,9 @@ A console-based banking transaction management system built using **Core Java, O
 * Exception Handling
 * Menu-driven Programming
 
-* ### 🍽️ 25. Restaurant Management Simulator
+---
+
+### 🍽️ 25. Restaurant Management Simulator
 
 A console-based restaurant management system built using **Core Java, OOP, ArrayList, CRUD operations, order management, and calculations**.
 
@@ -762,23 +725,27 @@ A console-based restaurant management system built using **Core Java, OOP, Array
 * Menu-driven Programming
 
 ---
+
 ### 🛡️ 26. Cyber Incident Response Simulator
 
-A console-based **cyber incident response simulator** that simulates a basic SOC analyst workflow for detecting, analyzing, and responding to security incidents.
+A safe, offline cybersecurity incident-response simulator that generates synthetic security incidents and provides basic incident-management operations.
+
+> This project uses simulated security data only and does not interact with real systems.
 
 **Features:**
 
-* Generate Security Incident
+* Generate Security Incidents
 * View All Incidents
-* Analyze Incident
-* Assign Incident Severity
+* Analyze Incidents
+* Assign Severity
 * Block Suspicious IP
 * Reset Compromised Credential
-* Close Security Incident
-* View Security Statistics
+* Close Incident
+* Security Statistics
+* Track Detection Time
+* Calculate Response Score
 * Generate Incident Report
-* Track Incident Detection Time
-* Calculate Analyst Response Score
+* Automatic Incident ID generation
 * Input validation
 * Menu-driven interface
 
@@ -788,7 +755,6 @@ A console-based **cyber incident response simulator** that simulates a basic SOC
 * OOP
 * Classes & Objects
 * Encapsulation
-* Constructors
 * `ArrayList`
 * `HashMap`
 * `enum`
@@ -800,38 +766,43 @@ A console-based **cyber incident response simulator** that simulates a basic SOC
 * `FileWriter`
 * Try-with-resources
 * Exception Handling
-* Loops
-* Methods
 * Searching
 * Calculations
 * Input Validation
 * Switch-Case
 * Menu-driven Programming
 
+---
+
 ### 🌐 27. Network Traffic Analyzer Simulator
 
-A console-based **Network Traffic Analyzer Simulator** that generates synthetic network packets and analyzes them for suspicious traffic patterns.
+A safe, offline network traffic analyzer that generates **synthetic network packets** and analyzes traffic patterns.
 
-> This project uses simulated traffic only. It does not capture, scan, or interfere with real network traffic.
+> This project does not capture real network traffic or interact with external networks.
 
 **Features:**
 
 * Generate Synthetic Network Traffic
 * View Network Packets
 * Analyze Traffic
-* Detect Suspicious IP Addresses
+* Detect Suspicious IPs
 * Detect High-Volume Traffic
 * Block IP Addresses
-* View Traffic Statistics
+* Search Traffic by IP
 * Sort Packets by Size
-* Search Traffic by IP Address
-* Classify Traffic as Normal, Suspicious, or Malicious
-* Generate Network Traffic Analysis Report
-* Track Packet Timestamp
-* Protocol Statistics
-* IP Traffic Statistics
+* Classify Traffic
+* Display Protocol Statistics
+* Display IP Statistics
+* Generate Traffic Report
+* Timestamp Tracking
 * Input validation
 * Menu-driven interface
+
+**Traffic Classification:**
+
+* `NORMAL`
+* `SUSPICIOUS`
+* `MALICIOUS`
 
 **Java Concepts:**
 
@@ -839,7 +810,6 @@ A console-based **Network Traffic Analyzer Simulator** that generates synthetic 
 * OOP
 * Classes & Objects
 * Encapsulation
-* Constructors
 * `ArrayList`
 * `HashMap`
 * `HashSet`
@@ -861,84 +831,11 @@ A console-based **Network Traffic Analyzer Simulator** that generates synthetic 
 * Switch-Case
 * Menu-driven Programming
 
-
-
-
-## 📚 Core Java Concepts Practiced
-
-This repository focuses on building a strong foundation in Java.
-
-* Variables & Data Types
-* Operators
-* Conditional Statements
-* Switch-Case
-* Loops
-* Methods
-* Classes & Objects
-* Constructors
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-* Interfaces
-* Method Overriding
-* Abstract Classes
-* Arrays
-* String Handling
-* Random Number Generation
-* Exception Handling
-* Java Collections
-* ArrayList
-* HashMap
-* Queue
-* LinkedList
-* FIFO
-* Key-Value Data Storage
-* CRUD Operations
-* Searching & Filtering
-* Calculations
-* File Handling
-* File Reading & Writing
-* Persistent Data Storage
-* Date & Time
-* Input Validation
-* Menu-Driven Programming
-* User Input Handling
-* Basic Problem Solving
-* Multithreading Basics
-* Library Management
-* Book Management
-* Hotel Reservation Management
-* Room Availability Management
-* Booking Management
-* Billing Calculations
-* Shopping Cart Management
-* Product Management
-* Cart Item Management
-* Total Price Calculation
-* Quantity Management
-* Status Management
-* Inventory Management
-* Stock Management
-* Stock Quantity Tracking
-* Inventory Value Calculation
-* Hospital Management
-* Patient Management
-* Doctor Management
-* Patient-Doctor Assignment
-* Healthcare Record Management
-* Loan Management
-* Customer Management
-* Loan Application Management
-* EMI Calculation
-* Loan Payment Tracking
-* Outstanding Balance Tracking
-
 ---
 
 ### 🔎 28. Log Threat Detection Simulator
 
-A console-based **Log Threat Detection Simulator** that generates synthetic server logs and analyzes them for suspicious activity and potential security threats.
+A safe, offline log-analysis simulator that generates **synthetic server logs** and analyzes them for suspicious activity and potential security threats.
 
 > This project uses synthetic logs only. It does not access, monitor, or modify real system logs.
 
@@ -958,8 +855,8 @@ A console-based **Log Threat Detection Simulator** that generates synthetic serv
 * Sort Logs by Timestamp
 * Track IP Activity
 * Generate Security Report
-* Input Validation
-* Menu-driven Interface
+* Input validation
+* Menu-driven interface
 
 **Threat Levels:**
 
@@ -998,6 +895,213 @@ A console-based **Log Threat Detection Simulator** that generates synthetic serv
 * Switch-Case
 * Menu-driven Programming
 
+---
+
+### 🔗 29. Security Event Correlation Simulator
+
+A safe, offline security-event correlation simulator that generates synthetic security events and analyzes multiple events together to identify suspicious activity patterns.
+
+> This project uses synthetic security events only and does not monitor or interact with real systems.
+
+**Features:**
+
+* Generate Synthetic Security Events
+* View All Security Events
+* Analyze Multiple Events
+* Correlate Events by IP Address
+* Detect Repeated Failed Logins
+* Detect Repeated Activity
+* Detect Suspicious Login Patterns
+* Detect Sensitive Resource Access
+* Correlate Events by Time
+* Assign Threat Levels
+* Search Events by IP
+* View Correlated Incidents
+* Display Security Statistics
+* Generate Incident Report
+* Automatic Event ID generation
+* Input validation
+* Menu-driven interface
+
+**Threat Levels:**
+
+* `NORMAL`
+* `WARNING`
+* `HIGH`
+* `CRITICAL`
+
+**Java Concepts:**
+
+* Core Java
+* OOP
+* Classes & Objects
+* Encapsulation
+* Constructors
+* `ArrayList`
+* `HashMap`
+* `HashSet`
+* `enum`
+* `Random`
+* `Scanner`
+* `Collections`
+* `Comparator`
+* `LocalDateTime`
+* `DateTimeFormatter`
+* File Handling
+* `FileWriter`
+* Try-with-resources
+* Event Correlation
+* Searching
+* Sorting
+* Pattern Detection
+* Calculations
+* Input Validation
+* Switch-Case
+* Exception Handling
+* Menu-driven Programming
+
+---
+
+## 🛠️ Tech Stack
+
+* ☕ Java
+* Core Java
+* OOP
+* Inheritance
+* Polymorphism
+* Abstraction
+* Interfaces
+* Abstract Classes
+* Method Overriding
+* Encapsulation
+* Scanner
+* Random
+* String
+* StringBuilder
+* Arrays
+* Collections Framework
+* ArrayList
+* HashMap
+* HashSet
+* Queue
+* LinkedList
+* File Handling
+* File
+* FileWriter
+* FileReader
+* BufferedReader
+* IOException
+* Exception Handling
+* Date & Time API
+* LocalDate
+* LocalTime
+* LocalDateTime
+* DateTimeFormatter
+* Comparator
+* Collections
+* Switch-Case
+* Loops
+* Methods
+* `Thread.sleep()`
+
+---
+
+## 📚 Core Java Concepts Practiced
+
+This repository focuses on building a strong foundation in Java.
+
+* Variables & Data Types
+* Operators
+* Conditional Statements
+* Switch-Case
+* Loops
+* Methods
+* Classes & Objects
+* Constructors
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+* Interfaces
+* Method Overriding
+* Abstract Classes
+* Arrays
+* String Handling
+* Random Number Generation
+* Exception Handling
+* Java Collections
+* ArrayList
+* HashMap
+* HashSet
+* Queue
+* LinkedList
+* FIFO
+* Key-Value Data Storage
+* CRUD Operations
+* Searching & Filtering
+* Sorting
+* Calculations
+* File Handling
+* File Reading & Writing
+* Persistent Data Storage
+* Date & Time
+* LocalDate
+* LocalTime
+* LocalDateTime
+* DateTimeFormatter
+* Input Validation
+* Menu-Driven Programming
+* User Input Handling
+* Basic Problem Solving
+* Multithreading Basics
+* Library Management
+* Book Management
+* Hotel Reservation Management
+* Room Availability Management
+* Booking Management
+* Billing Calculations
+* Shopping Cart Management
+* Product Management
+* Cart Item Management
+* Total Price Calculation
+* Quantity Management
+* Status Management
+* Inventory Management
+* Stock Management
+* Stock Quantity Tracking
+* Inventory Value Calculation
+* Hospital Management
+* Patient Management
+* Doctor Management
+* Patient-Doctor Assignment
+* Healthcare Record Management
+* Loan Management
+* Customer Management
+* Loan Application Management
+* EMI Calculation
+* Loan Payment Tracking
+* Outstanding Balance Tracking
+* Banking Transaction Management
+* Account Management
+* Deposit & Withdrawal Processing
+* Money Transfer
+* Transaction History
+* Restaurant Management
+* Menu Management
+* Order Management
+* GST Calculation
+* Cyber Incident Response
+* Security Incident Management
+* Synthetic Network Traffic Analysis
+* IP Activity Analysis
+* Log Analysis
+* Threat Detection
+* Security Event Correlation
+* Event Pattern Detection
+* Security Statistics
+* Incident Reporting
+
+---
 
 ## ▶️ How to Run
 
@@ -1157,7 +1261,6 @@ javac HospitalManagementSimulator.java
 java HospitalManagementSimulator
 ```
 
-
 ### 💳 Loan Management Simulator
 
 ```bash
@@ -1165,30 +1268,34 @@ javac LoanManagementSimulator.java
 java LoanManagementSimulator
 ```
 
----
-### 💳 Banking Transaction Simulator
+### 🏦 Banking Transaction Simulator
 
 ```bash
-javac BankingTransactionSimulator.java 
+javac BankingTransactionSimulator.java
 java BankingTransactionSimulator
 ```
 
-###  🍽️ Restaurant Management Simulator
+### 🍽️ Restaurant Management Simulator
+
 ```bash
 javac RestaurantManagementSimulator.java
 java RestaurantManagementSimulator
 ```
+
 ### 🛡️ Cyber Incident Response Simulator
+
 ```bash
 javac CyberIncidentResponseSimulator.java
 java CyberIncidentResponseSimulator
 ```
+
 ### 🌐 Network Traffic Analyzer Simulator
 
 ```bash
 javac NetworkTrafficAnalyzerSimulator.java
 java NetworkTrafficAnalyzerSimulator
 ```
+
 ### 🔎 Log Threat Detection Simulator
 
 ```bash
@@ -1196,6 +1303,14 @@ javac LogThreatDetectionSimulator.java
 java LogThreatDetectionSimulator
 ```
 
+### 🔗 Security Event Correlation Simulator
+
+```bash
+javac SecurityEventCorrelationSimulator.java
+java SecurityEventCorrelationSimulator
+```
+
+---
 
 ## 📂 Repository Structure
 
@@ -1231,6 +1346,7 @@ Java-Simulators/
 ├── CyberIncidentResponseSimulator.java
 ├── NetworkTrafficAnalyzerSimulator.java
 ├── LogThreatDetectionSimulator.java
+├── SecurityEventCorrelationSimulator.java
 └── README.md
 ```
 
@@ -1238,37 +1354,37 @@ Java-Simulators/
 
 ## 📈 Progress
 
-|  # | Project                             | Main Concept                          |
-| -: | ----------------------------------- | ------------------------------------- |
-|  1 | 🎲 Dice Simulator                   | Random                                |
-|  2 | 🏦 ATM Simulator                    | Conditions                            |
-|  3 | ⏱️ Countdown Timer                  | Threads                               |
-|  4 | 🔐 Password Generator               | Strings & Random                      |
-|  5 | 🎮 Rock Paper Scissors              | Game Logic                            |
-|  6 | 🧠 Memory Number Game               | Arrays & Random                       |
-|  7 | 🚗 Parking Lot Simulator            | Arrays & Logic                        |
-|  8 | 🚧 Toll Booth Simulator             | OOP & Logic                           |
-|  9 | 🏦 Bank Queue Simulator             | Collections & FIFO                    |
-| 10 | 📱 Contact Manager Simulator        | OOP & ArrayList                       |
-| 11 | 💰 Expense Tracker Simulator        | OOP & ArrayList                       |
-| 12 | 🎓 Student Grade Manager            | OOP & HashMap                         |
-| 13 | 🚗 Vehicle Rental Simulator         | Inheritance & Polymorphism            |
-| 14 | 🔧 Car Service Center Simulator     | OOP & ArrayList                       |
-| 15 | 📝 Note Manager Simulator           | File Handling                         |
-| 16 | 🗓️ Appointment Scheduler Simulator  | OOP, ArrayList & Date-Time            |
-| 17 | 👨‍💼 Employee Management Simulator    | Interface, Abstraction & Polymorphism |
-| 18 | 📚 Library Management Simulator     | OOP, Encapsulation & ArrayList        |
-| 19 | 🏨 Hotel Reservation Simulator      | Inheritance & Polymorphism            |
-| 20 | 🛒 Shopping Cart Simulator          | OOP, Encapsulation & ArrayList        |
-| 21 | 📦 Inventory Management Simulator   | OOP, ArrayList & CRUD                 |
-| 22 | 🏥 Hospital Management Simulator    | OOP, ArrayList & CRUD                 |
-| 23 | 💳 Loan Management Simulator        | OOP, ArrayList & Calculations         |
-|  24|   🏦 Banking Transaction Simulator  |OOP, ArrayList & Transactions          |
-| 25 | 🍽️ Restaurant Management Simulator | OOP, ArrayList & Order Management      |
-| 26 | 🛡️ Cyber Incident Response Simulator | OOP, Collections, File Handling & Security Logic |
-| 27 | 🌐 Network Traffic Analyzer Simulator | OOP, Collections, Analysis & File Handling |
-| 28 | 🔎 Log Threat Detection Simulator | OOP, Collections, Log Analysis & Threat Detection |
-
+|  # | Project                                 | Main Concept                                            |
+| -: | --------------------------------------- | ------------------------------------------------------- |
+|  1 | 🎲 Dice Simulator                       | Random                                                  |
+|  2 | 🏦 ATM Simulator                        | Conditions                                              |
+|  3 | ⏱️ Countdown Timer                      | Threads                                                 |
+|  4 | 🔐 Password Generator                   | Strings & Random                                        |
+|  5 | 🎮 Rock Paper Scissors                  | Game Logic                                              |
+|  6 | 🧠 Memory Number Game                   | Arrays & Random                                         |
+|  7 | 🚗 Parking Lot Simulator                | Arrays & Logic                                          |
+|  8 | 🚧 Toll Booth Simulator                 | OOP & Logic                                             |
+|  9 | 🏦 Bank Queue Simulator                 | Collections & FIFO                                      |
+| 10 | 📱 Contact Manager Simulator            | OOP & ArrayList                                         |
+| 11 | 💰 Expense Tracker Simulator            | OOP & ArrayList                                         |
+| 12 | 🎓 Student Grade Manager                | OOP & HashMap                                           |
+| 13 | 🚗 Vehicle Rental Simulator             | Inheritance & Polymorphism                              |
+| 14 | 🔧 Car Service Center Simulator         | OOP & ArrayList                                         |
+| 15 | 📝 Note Manager Simulator               | File Handling                                           |
+| 16 | 🗓️ Appointment Scheduler Simulator      | OOP, ArrayList & Date-Time                              |
+| 17 | 👨‍💼 Employee Management Simulator        | Interface, Abstraction & Polymorphism                   |
+| 18 | 📚 Library Management Simulator         | OOP, Encapsulation & ArrayList                          |
+| 19 | 🏨 Hotel Reservation Simulator          | Inheritance & Polymorphism                              |
+| 20 | 🛒 Shopping Cart Simulator              | OOP, Encapsulation & ArrayList                          |
+| 21 | 📦 Inventory Management Simulator       | OOP, ArrayList & CRUD                                   |
+| 22 | 🏥 Hospital Management Simulator        | OOP, ArrayList & CRUD                                   |
+| 23 | 💳 Loan Management Simulator            | OOP, ArrayList & Calculations                           |
+| 24 | 🏦 Banking Transaction Simulator        | OOP, ArrayList & Transactions                           |
+| 25 | 🍽️ Restaurant Management Simulator     | OOP, ArrayList & Order Management                       |
+| 26 | 🛡️ Cyber Incident Response Simulator   | OOP, Collections, File Handling & Security Logic        |
+| 27 | 🌐 Network Traffic Analyzer Simulator   | OOP, Collections, Analysis & File Handling              |
+| 28 | 🔎 Log Threat Detection Simulator       | OOP, Collections, Log Analysis & Threat Detection       |
+| 29 | 🔗 Security Event Correlation Simulator | OOP, Collections, Event Correlation & Security Analysis |
 
 ---
 
@@ -1284,10 +1400,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**28projects completed 🎉**
+**29 projects completed 🎉**
 
-**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world Logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Banking Transactions → Restaurant Management → Security & Incident Response → Network Traffic Analysis → Log Threat Detection**
+**Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world Logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Banking Transactions → Restaurant Management → Security & Incident Response → Network Traffic Analysis → Log Threat Detection → Security Event Correlation**
 
 ### 🔥 Next Project Loading...
 
-⭐ **28 Java projects completed and counting!**
+⭐ **29 Java projects completed and counting!**
