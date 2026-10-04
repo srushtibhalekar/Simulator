@@ -1005,6 +1005,112 @@ A safe, offline security-event correlation simulator that generates synthetic se
 * `Thread.sleep()`
 
 ---
+### 🔔 30. Security Alert Management Simulator
+
+A safe, offline **Security Alert Management Simulator** built with Java.
+
+This project simulates how security alerts can be generated, assigned, acknowledged, investigated, resolved, and closed in a security operations environment.
+
+All alerts and security data are **synthetic**. The project does not connect to real systems, networks, servers, or security infrastructure.
+
+#### ✨ Features
+
+* Generate Synthetic Security Alerts
+* View All Security Alerts
+* View New Alerts
+* Acknowledge Security Alerts
+* Assign Alerts to Analysts
+* Update Alert Status
+* Filter Alerts by Severity
+* Filter Alerts by Status
+* Search Alerts by IP Address
+* View Alert Statistics
+* Calculate Average Response Time
+* Calculate Average Resolution Time
+* Sort Alerts by Severity
+* Generate Security Alert Report
+* Automatic Alert ID Generation
+* Input Validation
+* Menu-driven Interface
+
+#### 🚨 Severity Levels
+
+* LOW
+* MEDIUM
+* HIGH
+* CRITICAL
+
+#### 📌 Alert Status
+
+* NEW
+* INVESTIGATING
+* RESOLVED
+* CLOSED
+
+#### 👨‍💻 Analysts
+
+The simulator uses synthetic security analysts:
+
+* Asha
+* Rahul
+* Neha
+* Vikram
+
+#### 🧠 Core Java Concepts Practiced
+
+* Core Java
+* OOP
+* Classes and Objects
+* Encapsulation
+* Constructors
+* ArrayList
+* HashMap
+* enum
+* Random
+* Scanner
+* Collections
+* Comparator
+* LocalDateTime
+* Duration
+* Date & Time Formatting
+* File Handling
+* FileWriter
+* Try-with-resources
+* Searching
+* Sorting
+* Filtering
+* Statistics
+* Calculations
+* Input Validation
+* Exception Handling
+* Switch-case
+* Loops
+* Methods
+* Menu-driven Programming
+* Security Alert Management Logic
+
+#### 📄 Generated Report
+
+The simulator can generate:
+
+`SecurityAlertManagementReport.txt`
+
+The report contains:
+
+* Alert ID
+* IP Address
+* Username
+* Alert Type
+* Description
+* Severity
+* Status
+* Assigned Analyst
+* Created Time
+* Acknowledgement Time
+* Resolution Time
+* Response Time
+* Resolution Time
+
 
 ## 📚 Core Java Concepts Practiced
 
@@ -1309,8 +1415,12 @@ java LogThreatDetectionSimulator
 javac SecurityEventCorrelationSimulator.java
 java SecurityEventCorrelationSimulator
 ```
-
+### 🔐 Security Alert Management
+```bash
+javac SecurityAlertManagementSimulator.java 
+java SecurityAlertManagementSimulator
 ---
+
 
 ## 📂 Repository Structure
 
@@ -1347,6 +1457,7 @@ Java-Simulators/
 ├── NetworkTrafficAnalyzerSimulator.java
 ├── LogThreatDetectionSimulator.java
 ├── SecurityEventCorrelationSimulator.java
+├── SecurityAlertManagementReport.java
 └── README.md
 ```
 
@@ -1385,6 +1496,7 @@ Java-Simulators/
 | 27 | 🌐 Network Traffic Analyzer Simulator   | OOP, Collections, Analysis & File Handling              |
 | 28 | 🔎 Log Threat Detection Simulator       | OOP, Collections, Log Analysis & Threat Detection       |
 | 29 | 🔗 Security Event Correlation Simulator | OOP, Collections, Event Correlation & Security Analysis |
+| 30 | 🔔 Security Alert Management Simulator | OOP, Collections, Alert Management & File Handling |
 
 ---
 
@@ -1400,10 +1512,10 @@ Java-Simulators/
 
 ## 🚀 Current Status
 
-**29 projects completed 🎉**
+**30 projects completed 🎉**
 
 **Core Java → OOP → Collections → Inheritance → Polymorphism → File Handling → Date & Time → Interfaces & Abstraction → CRUD → Searching → Validation → Calculations → Real-world Logic → Shopping Cart → Inventory Management → Hospital Management → Loan Management → Banking Transactions → Restaurant Management → Security & Incident Response → Network Traffic Analysis → Log Threat Detection → Security Event Correlation**
 
 ### 🔥 Next Project Loading...
 
-⭐ **29 Java projects completed and counting!**
+⭐ **30 Java projects completed and counting!**
